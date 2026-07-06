@@ -1,0 +1,13 @@
+# Go compiled binaries
+go-tracking-core/railway-tracking-core
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# local PHP/Environment configurations
+php-control-plane/config.local.php
+.DS_Store
+.idea/
+.vscode/
