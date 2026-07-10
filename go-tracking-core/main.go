@@ -7,7 +7,6 @@ import (
 	"log"
 	"time"
 	"net/http"
-	"os"
 
 	"github.com/go-redis/redis/v8"
 )
@@ -16,13 +15,8 @@ var ctx = context.Background()
 var redisClient *redis.Client
 
 func main() {
-	redisAddr := os.Getenv("REDIS_ADDR")
-	if redisAddr == "" {
-		redisAddr = "localhost:6379"
-	}
-
 	redisClient = redis.NewClient(&redis.Options{
-		Addr: redisAddr,
+		Addr: "localhost:6379",
 	})
 
 	_, err := redisClient.Ping(ctx).Result()
