@@ -1,13 +1,17 @@
 import redis
 import json
 import sys
+import os
 
 def start_notification_listener():
     print("🔄 Initializing connection to Redis infrastructure...", flush=True)
     
+    redis_host = os.getenv('REDIS_HOST', '127.0.0.1')
+    redis_port = int(os.getenv('REDIS_PORT', 6379))
+    
     try:
         # Establish connection with explicit compatibility configuration
-        r = redis.Redis(host='127.0.0.1', port=6379, db=0, protocol=2)
+        r = redis.Redis(host=redis_host, port=redis_port, db=0, protocol=2)
         
         # Immediate ping test to verify Redis is awake before starting the loop
         if r.ping():

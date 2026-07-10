@@ -8,15 +8,15 @@ RUN go mod download
 
 COPY go-tracking-core/ .
 
-RUN CGO_ENABLED=0 GOOS=linux go build -o tracker-service .
+RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o /app/tracker-service .
 
 FROM alpine:latest
 
 RUN apk --no-cache add ca-certificates
 
-WORKDIR /root/
+WORKDIR /app
 
-COPY --from=builder /build/tracker-service .
+COPY --from=builder /app/tracker-service .
 
 EXPOSE 8080
 
