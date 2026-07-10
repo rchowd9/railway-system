@@ -3,7 +3,6 @@ package main
 import (
 	"encoding/json"
 	"net/http"
-	"sync"
 	"time"
 
 	"github.com/gorilla/websocket"
@@ -12,7 +11,7 @@ import (
 var upgrader = websocket.Upgrader{
 	ReadBufferSize:  1024,
 	WriteBufferSize: 1024,
-	CheckOrigin:     func(r *http.Request) bool { return true },
+	CheckOrigin:     func(r *http.Request) bool { return true }, // Bypasses CORS blockers
 }
 
 func StreamBroadcast(w http.ResponseWriter, r *http.Request, tracker *TrainTracker) {
@@ -34,6 +33,6 @@ func StreamBroadcast(w http.ResponseWriter, r *http.Request, tracker *TrainTrack
 		if err := conn.WriteMessage(websocket.TextMessage, payload); err != nil {
 			break
 		}
-		time.Sleep(StreamThrottle)
+		time.Sleep(1 * time.Second) // Dynamic stream update velocity throttle
 	}
 }

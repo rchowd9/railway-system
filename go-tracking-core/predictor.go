@@ -1,18 +1,34 @@
 package main
 
-// CalculatePredictiveETA applies a linear vector calculation to estimate remaining minutes
-// accounts for live performance velocity drop off or static operational delays injected by admin.
-func CalculatePredictiveETA(currentDist, totalDist, currentVelocity, adminDelayMins float64) float64 {
-	if currentDist >= totalDist {
-		return 0.0
+import "math"
+
+type PredictorEngine struct {
+	CongestionWeight float64
+	TimeOfDayFactor  float64
+}
+
+func NewPredictorEngine() *PredictorEngine {
+	return &PredictorEngine{
+		CongestionWeight: 1.35,
+		TimeOfDayFactor:  1.10,
 	}
-	if currentVelocity <= 0.0 {
-		return 999.0 // Infinite delay catch block if train completely halts
+}
+
+func (pe *PredictorEngine) PredictMinutesRemaining(currentDist, totalDist, currentSpeed float64, status string) int {
+	remainingDist := totalDist - currentDist
+	if remainingDist <= 0 || currentSpeed <= 0 {
+		return 0
 	}
 
-	remainingDistance := totalDist - currentDist
-	baselineMinutes := remainingDistance / currentVelocity
+	baseETA := (remainingDist / currentSpeed)
 
-	// Combine real-world physical trajectory with structural delays from administration
-	return baselineMinutes + adminDelayMins
+	if status == "Delayed" {
+		baseETA = baseETA * pe.CongestionWeight
+	} else if status == "SIGNAL HOLD" {
+		return 99 
+	}
+
+	finalPredictedETA := baseETA * pe.TimeOfDayFactor
+
+	return int(math.Ceil(finalPredictedETA))
 }

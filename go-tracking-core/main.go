@@ -5,41 +5,74 @@ import (
 	"encoding/json"
 	"fmt"
 	"log"
+	"time"
 	"net/http"
 
 	"github.com/go-redis/redis/v8"
 )
 
 var ctx = context.Background()
+var redisClient *redis.Client
 
 func main() {
-	tracker := NewTrainTracker()
-	go tracker.ExecSimulationLoop()
+	redisClient = redis.NewClient(&redis.Options{
+		Addr: "localhost:6379",
+	})
 
-	rdb := redis.NewClient(&redis.Options{Addr: RedisAddr})
+	_, err := redisClient.Ping(ctx).Result()
+	if err != nil {
+		log.Fatalf("Fatal: Could not connect to Redis: %v", err)
+	}
+	fmt.Println("Successfully connected to Redis infrastructure.")
+
+	tracker := NewTrainTracker()
+	go tracker.StartSimulationLoop()
+
+	// 🚨 ADD THIS BLOCK: Listen for administration overrides via Redis Pub/Sub
 	go func() {
-		pubsub := rdb.Subscribe(ctx, RedisChannel)
+		pubsub := redisClient.Subscribe(ctx, "transit-updates")
 		defer pubsub.Close()
+
+		type StatusUpdate struct {
+			TrainNumber string
+			Status      string
+		}
+
 		for {
 			msg, err := pubsub.ReceiveMessage(ctx)
 			if err != nil {
 				continue
 			}
-			var data struct {
-				TrainNumber string  `json:"train_number"`
-				DelayMins   float64 `json:"delay_minutes"`
-				Status      string  `json:"status"`
-			}
-			if err := json.Unmarshal([]byte(msg.Payload), &data); err == nil {
-				tracker.UpdateStateFromAdmin(data.TrainNumber, data.DelayMins, data.Status)
+
+			var update StatusUpdate
+			if err := json.Unmarshal([]byte(msg.Payload), &update); err == nil {
+				tracker.mu.Lock()
+				for i := range tracker.Trains {
+					if tracker.Trains[i].TrainNumber == update.TrainNumber {
+						tracker.Trains[i].Status = update.Status
+						if update.Status == "Delayed" {
+							tracker.Trains[i].Speed = 0.4 
+						} else {
+							tracker.Trains[i].Speed = 1.5 
+						}
+						
+						// 🚨 NEW CACHING LOGIC: Save event log in Redis memory
+						logEntry := fmt.Sprintf("[%s] %s set to %s", time.Now().Format("15:04:05"), update.TrainNumber, update.Status)
+						redisClient.LPush(ctx, "transit-historical-logs", logEntry)
+						redisClient.LTrim(ctx, "transit-historical-logs", 0, 49) // Cap list at 50 entries
+					}
+				}
+				tracker.mu.Unlock()
 			}
 		}
 	}()
 
-	http.HandleFunc("/ws/live", func(w http.ResponseWriter, r *http.Request) {
+	http.HandleFunc("/stream", func(w http.ResponseWriter, r *http.Request) {
 		StreamBroadcast(w, r, tracker)
 	})
 
-	fmt.Printf("Systems Engine active on port %s\n", ServerPort)
-	log.Fatal(http.ListenAndServe(ServerPort, nil))
+	fmt.Println("Go Stream Engine listening on http://localhost:8080...")
+	if err := http.ListenAndServe(":8080", nil); err != nil {
+		log.Fatalf("Network boot error: %v", err)
+	}
 }
