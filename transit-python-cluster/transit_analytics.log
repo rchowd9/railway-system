@@ -1,0 +1,1081 @@
+{"timestamp": "2026-07-11 16:27:07", "trip_id": "516737", "line": "1 Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:27:07", "trip_id": "682398", "line": "1 Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:27:07", "trip_id": "656545", "line": "2 Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:27:07", "trip_id": "774969", "line": "1 Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:27:07", "trip_id": "915314", "line": "3 Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:27:07", "trip_id": "530557", "line": "1 Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:27:07", "trip_id": "186730", "line": "E Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:27:07", "trip_id": "516988", "line": "2 Line Commuter", "route": "Coney Island -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:27:07", "trip_id": "258939", "line": "1 Line Commuter", "route": "Coney Island -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:27:07", "trip_id": "492740", "line": "3 Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:27:37", "trip_id": "398953", "line": "R Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:27:37", "trip_id": "338213", "line": "E Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:27:37", "trip_id": "799641", "line": "N Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:27:37", "trip_id": "322843", "line": "N Line Commuter", "route": "World Trade Center -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:27:37", "trip_id": "392527", "line": "R Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:27:37", "trip_id": "853420", "line": "3 Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:27:37", "trip_id": "791645", "line": "R Line Commuter", "route": "South Ferry -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:27:37", "trip_id": "821832", "line": "R Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:27:37", "trip_id": "405379", "line": "N Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:27:37", "trip_id": "295851", "line": "N Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:28:07", "trip_id": "565312", "line": "R Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:28:07", "trip_id": "578076", "line": "3 Line Commuter", "route": "World Trade Center -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:28:07", "trip_id": "938785", "line": "N Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:28:07", "trip_id": "411550", "line": "A Line Commuter", "route": "Coney Island -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:28:07", "trip_id": "980915", "line": "R Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:28:07", "trip_id": "432920", "line": "E Line Commuter", "route": "World Trade Center -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:28:07", "trip_id": "825921", "line": "N Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:28:07", "trip_id": "766606", "line": "3 Line Commuter", "route": "World Trade Center -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:28:07", "trip_id": "588586", "line": "2 Line Commuter", "route": "Coney Island -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:28:07", "trip_id": "977661", "line": "R Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:28:37", "trip_id": "497044", "line": "2 Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:28:37", "trip_id": "897113", "line": "N Line Commuter", "route": "Utica Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:28:37", "trip_id": "105145", "line": "1 Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:28:37", "trip_id": "649271", "line": "2 Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:28:37", "trip_id": "729236", "line": "R Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:28:37", "trip_id": "314501", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:28:37", "trip_id": "549747", "line": "C Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:28:37", "trip_id": "212831", "line": "3 Line Commuter", "route": "World Trade Center -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:28:37", "trip_id": "473838", "line": "E Line Commuter", "route": "Coney Island -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:28:37", "trip_id": "941810", "line": "R Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:29:07", "trip_id": "697405", "line": "R Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:29:07", "trip_id": "228728", "line": "Q Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:29:08", "trip_id": "193448", "line": "Q Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:29:08", "trip_id": "468049", "line": "Q Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:29:08", "trip_id": "385771", "line": "3 Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:29:08", "trip_id": "140996", "line": "E Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:29:08", "trip_id": "750594", "line": "N Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:29:08", "trip_id": "947484", "line": "C Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:29:08", "trip_id": "330477", "line": "3 Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:29:08", "trip_id": "535173", "line": "2 Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:29:38", "trip_id": "851321", "line": "Q Line Commuter", "route": "South Ferry -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:29:38", "trip_id": "237896", "line": "N Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:29:38", "trip_id": "597211", "line": "3 Line Commuter", "route": "Utica Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:29:38", "trip_id": "962138", "line": "3 Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:29:38", "trip_id": "691313", "line": "A Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:29:38", "trip_id": "151531", "line": "N Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:29:38", "trip_id": "123466", "line": "E Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:29:38", "trip_id": "244847", "line": "A Line Commuter", "route": "Utica Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:29:38", "trip_id": "591878", "line": "3 Line Commuter", "route": "Utica Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:29:38", "trip_id": "341712", "line": "N Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:30:08", "trip_id": "521354", "line": "R Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:30:08", "trip_id": "965422", "line": "E Line Commuter", "route": "World Trade Center -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:30:08", "trip_id": "227346", "line": "N Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:30:08", "trip_id": "894571", "line": "3 Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:30:08", "trip_id": "848925", "line": "C Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:30:08", "trip_id": "644889", "line": "R Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:30:08", "trip_id": "779020", "line": "E Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:30:08", "trip_id": "280142", "line": "A Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:30:08", "trip_id": "212149", "line": "1 Line Commuter", "route": "Astoria - Ditmars -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:30:08", "trip_id": "389725", "line": "R Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:30:38", "trip_id": "966174", "line": "3 Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:30:38", "trip_id": "337839", "line": "R Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:30:38", "trip_id": "777641", "line": "R Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:30:38", "trip_id": "354044", "line": "1 Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:30:38", "trip_id": "904214", "line": "1 Line Commuter", "route": "Astoria - Ditmars -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:30:38", "trip_id": "947260", "line": "R Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:30:38", "trip_id": "966024", "line": "N Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:30:38", "trip_id": "729322", "line": "2 Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:30:38", "trip_id": "586461", "line": "C Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:30:38", "trip_id": "615603", "line": "Q Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:31:08", "trip_id": "554272", "line": "A Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:31:08", "trip_id": "357666", "line": "3 Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:31:08", "trip_id": "445995", "line": "Q Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:31:08", "trip_id": "770993", "line": "R Line Commuter", "route": "World Trade Center -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:31:08", "trip_id": "528725", "line": "R Line Commuter", "route": "World Trade Center -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:31:08", "trip_id": "335330", "line": "C Line Commuter", "route": "Coney Island -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:31:08", "trip_id": "412369", "line": "C Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:31:08", "trip_id": "424841", "line": "3 Line Commuter", "route": "Utica Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:31:08", "trip_id": "316972", "line": "E Line Commuter", "route": "Coney Island -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:31:08", "trip_id": "914668", "line": "E Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:31:38", "trip_id": "482896", "line": "2 Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:31:38", "trip_id": "818416", "line": "E Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:31:38", "trip_id": "585217", "line": "1 Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:31:38", "trip_id": "537717", "line": "N Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:31:38", "trip_id": "795193", "line": "E Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:31:38", "trip_id": "792663", "line": "2 Line Commuter", "route": "South Ferry -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:31:38", "trip_id": "653450", "line": "A Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:31:38", "trip_id": "107103", "line": "R Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:31:38", "trip_id": "546165", "line": "2 Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:31:38", "trip_id": "482369", "line": "E Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:32:28", "trip_id": "8232832", "line": "Q Line Commuter", "route": "World Trade Center -> Penn Station"}
+{"timestamp": "2026-07-11 16:32:59", "trip_id": "739493", "line": "A Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:32:59", "trip_id": "654526", "line": "Q Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:32:59", "trip_id": "253125", "line": "C Line Commuter", "route": "Utica Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:32:59", "trip_id": "179660", "line": "Q Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:32:59", "trip_id": "220894", "line": "2 Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:32:59", "trip_id": "887325", "line": "R Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:32:59", "trip_id": "961644", "line": "1 Line Commuter", "route": "Coney Island -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:32:59", "trip_id": "256446", "line": "1 Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:32:59", "trip_id": "987532", "line": "3 Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:32:59", "trip_id": "982672", "line": "N Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:33:29", "trip_id": "727021", "line": "N Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:33:29", "trip_id": "434740", "line": "N Line Commuter", "route": "South Ferry -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:33:29", "trip_id": "963133", "line": "C Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:33:29", "trip_id": "685572", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:33:29", "trip_id": "565580", "line": "R Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:33:29", "trip_id": "448596", "line": "A Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:33:29", "trip_id": "726691", "line": "3 Line Commuter", "route": "Lefferts Blvd -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:33:29", "trip_id": "767428", "line": "Q Line Commuter", "route": "Utica Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:33:29", "trip_id": "264228", "line": "E Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:33:29", "trip_id": "582227", "line": "A Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:33:59", "trip_id": "966383", "line": "R Line Commuter", "route": "Utica Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:33:59", "trip_id": "256488", "line": "E Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:33:59", "trip_id": "772157", "line": "A Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:33:59", "trip_id": "781029", "line": "2 Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:33:59", "trip_id": "789383", "line": "A Line Commuter", "route": "Coney Island -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:33:59", "trip_id": "794157", "line": "N Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:33:59", "trip_id": "866860", "line": "1 Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:33:59", "trip_id": "378873", "line": "E Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:33:59", "trip_id": "904475", "line": "Q Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:33:59", "trip_id": "176007", "line": "N Line Commuter", "route": "Coney Island -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:34:29", "trip_id": "645562", "line": "1 Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:34:29", "trip_id": "578151", "line": "1 Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:34:29", "trip_id": "320312", "line": "A Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:34:29", "trip_id": "925991", "line": "E Line Commuter", "route": "Coney Island -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:34:29", "trip_id": "463336", "line": "A Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:34:29", "trip_id": "387656", "line": "1 Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:34:29", "trip_id": "215329", "line": "E Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:34:29", "trip_id": "180206", "line": "Q Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:34:29", "trip_id": "626699", "line": "2 Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:34:29", "trip_id": "412464", "line": "3 Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:34:59", "trip_id": "711418", "line": "A Line Commuter", "route": "Lefferts Blvd -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:34:59", "trip_id": "991566", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:34:59", "trip_id": "812108", "line": "1 Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:34:59", "trip_id": "988068", "line": "1 Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:34:59", "trip_id": "415397", "line": "3 Line Commuter", "route": "Lefferts Blvd -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:34:59", "trip_id": "929941", "line": "1 Line Commuter", "route": "South Ferry -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:34:59", "trip_id": "611334", "line": "R Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:34:59", "trip_id": "179811", "line": "2 Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:34:59", "trip_id": "201349", "line": "N Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:34:59", "trip_id": "562854", "line": "3 Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:35:29", "trip_id": "206664", "line": "N Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:35:29", "trip_id": "378427", "line": "C Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:35:29", "trip_id": "606723", "line": "C Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:35:29", "trip_id": "280686", "line": "A Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:35:29", "trip_id": "410966", "line": "3 Line Commuter", "route": "Utica Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:35:29", "trip_id": "462507", "line": "2 Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:35:29", "trip_id": "891385", "line": "Q Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:35:29", "trip_id": "220065", "line": "A Line Commuter", "route": "World Trade Center -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:35:29", "trip_id": "311067", "line": "C Line Commuter", "route": "World Trade Center -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:35:29", "trip_id": "624664", "line": "2 Line Commuter", "route": "Coney Island -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:36:00", "trip_id": "597250", "line": "1 Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:36:00", "trip_id": "127196", "line": "1 Line Commuter", "route": "Astoria - Ditmars -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:36:00", "trip_id": "683515", "line": "E Line Commuter", "route": "South Ferry -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:36:00", "trip_id": "357646", "line": "N Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:36:00", "trip_id": "451031", "line": "2 Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:36:00", "trip_id": "579163", "line": "3 Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:36:00", "trip_id": "459875", "line": "E Line Commuter", "route": "Utica Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:36:00", "trip_id": "121798", "line": "E Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:36:00", "trip_id": "552685", "line": "3 Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:36:00", "trip_id": "526385", "line": "R Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:36:30", "trip_id": "516528", "line": "A Line Commuter", "route": "World Trade Center -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:36:30", "trip_id": "820666", "line": "R Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:36:30", "trip_id": "743649", "line": "C Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:36:30", "trip_id": "786648", "line": "E Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:36:30", "trip_id": "155165", "line": "1 Line Commuter", "route": "Coney Island -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:36:30", "trip_id": "405000", "line": "3 Line Commuter", "route": "Utica Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:36:30", "trip_id": "284282", "line": "E Line Commuter", "route": "Utica Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:36:30", "trip_id": "653978", "line": "N Line Commuter", "route": "Astoria - Ditmars -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:36:30", "trip_id": "753742", "line": "2 Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:36:30", "trip_id": "767825", "line": "1 Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:37:00", "trip_id": "562210", "line": "E Line Commuter", "route": "World Trade Center -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:37:00", "trip_id": "940717", "line": "2 Line Commuter", "route": "Coney Island -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:37:00", "trip_id": "525736", "line": "Q Line Commuter", "route": "World Trade Center -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:37:00", "trip_id": "441265", "line": "2 Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:37:00", "trip_id": "643702", "line": "1 Line Commuter", "route": "World Trade Center -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:37:00", "trip_id": "819910", "line": "3 Line Commuter", "route": "Coney Island -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:37:00", "trip_id": "150846", "line": "2 Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:37:00", "trip_id": "397835", "line": "A Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:37:00", "trip_id": "374243", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:37:00", "trip_id": "888990", "line": "2 Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:37:30", "trip_id": "685591", "line": "3 Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:37:30", "trip_id": "425370", "line": "2 Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:37:30", "trip_id": "802861", "line": "C Line Commuter", "route": "Utica Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:37:30", "trip_id": "230313", "line": "Q Line Commuter", "route": "Coney Island -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:37:30", "trip_id": "917778", "line": "1 Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:37:30", "trip_id": "627197", "line": "Q Line Commuter", "route": "South Ferry -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:37:30", "trip_id": "716972", "line": "3 Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:37:30", "trip_id": "511390", "line": "C Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:37:30", "trip_id": "626343", "line": "R Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:37:30", "trip_id": "881584", "line": "N Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:38:00", "trip_id": "921109", "line": "2 Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:38:00", "trip_id": "741682", "line": "C Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:38:00", "trip_id": "935588", "line": "Q Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:38:00", "trip_id": "124448", "line": "E Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:38:00", "trip_id": "365275", "line": "1 Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:38:00", "trip_id": "831857", "line": "1 Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:38:00", "trip_id": "499383", "line": "3 Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:38:00", "trip_id": "523782", "line": "A Line Commuter", "route": "Utica Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:38:00", "trip_id": "965818", "line": "Q Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:38:00", "trip_id": "545692", "line": "3 Line Commuter", "route": "Coney Island -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:38:30", "trip_id": "614108", "line": "E Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:38:30", "trip_id": "743104", "line": "E Line Commuter", "route": "Coney Island -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:38:30", "trip_id": "647227", "line": "N Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:38:30", "trip_id": "723540", "line": "A Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:38:30", "trip_id": "444093", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:38:30", "trip_id": "887733", "line": "A Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:38:30", "trip_id": "766088", "line": "2 Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:38:30", "trip_id": "828680", "line": "A Line Commuter", "route": "South Ferry -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:38:30", "trip_id": "550011", "line": "E Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:38:30", "trip_id": "292146", "line": "A Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:39:01", "trip_id": "786923", "line": "Q Line Commuter", "route": "World Trade Center -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:39:01", "trip_id": "233517", "line": "N Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:39:01", "trip_id": "941122", "line": "E Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:39:01", "trip_id": "228576", "line": "R Line Commuter", "route": "Utica Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:39:01", "trip_id": "550456", "line": "1 Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:39:01", "trip_id": "310824", "line": "2 Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:39:01", "trip_id": "841881", "line": "E Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:39:01", "trip_id": "159400", "line": "2 Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:39:01", "trip_id": "454038", "line": "3 Line Commuter", "route": "South Ferry -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:39:01", "trip_id": "437194", "line": "1 Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:39:31", "trip_id": "358015", "line": "E Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:39:31", "trip_id": "675190", "line": "1 Line Commuter", "route": "Utica Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:39:31", "trip_id": "749283", "line": "N Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:39:31", "trip_id": "832754", "line": "3 Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:39:31", "trip_id": "183333", "line": "C Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:39:31", "trip_id": "496163", "line": "C Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:39:31", "trip_id": "218523", "line": "C Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:39:31", "trip_id": "760856", "line": "R Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:39:31", "trip_id": "623881", "line": "N Line Commuter", "route": "Utica Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:39:31", "trip_id": "232861", "line": "E Line Commuter", "route": "Utica Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:40:01", "trip_id": "490518", "line": "C Line Commuter", "route": "South Ferry -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:40:01", "trip_id": "885327", "line": "3 Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:40:01", "trip_id": "687511", "line": "N Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:40:01", "trip_id": "610530", "line": "N Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:40:01", "trip_id": "455397", "line": "A Line Commuter", "route": "World Trade Center -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:40:01", "trip_id": "911275", "line": "N Line Commuter", "route": "Coney Island -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:40:01", "trip_id": "300971", "line": "R Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:40:01", "trip_id": "114211", "line": "N Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:40:01", "trip_id": "772781", "line": "Q Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:40:01", "trip_id": "268293", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:40:31", "trip_id": "430927", "line": "A Line Commuter", "route": "Utica Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:40:31", "trip_id": "842611", "line": "A Line Commuter", "route": "Astoria - Ditmars -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:40:31", "trip_id": "645835", "line": "2 Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:40:31", "trip_id": "427024", "line": "R Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:40:31", "trip_id": "881430", "line": "C Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:40:31", "trip_id": "234699", "line": "N Line Commuter", "route": "World Trade Center -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:40:31", "trip_id": "627633", "line": "2 Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:40:31", "trip_id": "757078", "line": "A Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:40:31", "trip_id": "362216", "line": "E Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:40:31", "trip_id": "407216", "line": "1 Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:41:02", "trip_id": "348949", "line": "A Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:41:02", "trip_id": "643057", "line": "N Line Commuter", "route": "Coney Island -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:41:02", "trip_id": "259607", "line": "N Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:41:02", "trip_id": "890581", "line": "E Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:41:02", "trip_id": "447516", "line": "A Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:41:02", "trip_id": "304151", "line": "Q Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:41:02", "trip_id": "396245", "line": "2 Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:41:02", "trip_id": "420111", "line": "Q Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:41:02", "trip_id": "235588", "line": "N Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:41:02", "trip_id": "277978", "line": "1 Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:41:32", "trip_id": "178379", "line": "1 Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:41:32", "trip_id": "879574", "line": "2 Line Commuter", "route": "South Ferry -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:41:32", "trip_id": "720563", "line": "R Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:41:32", "trip_id": "414943", "line": "A Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:41:32", "trip_id": "176969", "line": "N Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:41:32", "trip_id": "748544", "line": "Q Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:41:32", "trip_id": "201947", "line": "3 Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:41:32", "trip_id": "759691", "line": "N Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:41:32", "trip_id": "183612", "line": "C Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:41:32", "trip_id": "537631", "line": "A Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:42:03", "trip_id": "540916", "line": "C Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:42:03", "trip_id": "794908", "line": "N Line Commuter", "route": "Lefferts Blvd -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:42:03", "trip_id": "389578", "line": "Q Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:42:03", "trip_id": "330951", "line": "R Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:42:03", "trip_id": "387165", "line": "C Line Commuter", "route": "South Ferry -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:42:03", "trip_id": "922586", "line": "1 Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:42:03", "trip_id": "512153", "line": "N Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:42:03", "trip_id": "275996", "line": "1 Line Commuter", "route": "Coney Island -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:42:03", "trip_id": "449796", "line": "Q Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:42:03", "trip_id": "669838", "line": "A Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:42:33", "trip_id": "130912", "line": "C Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:42:33", "trip_id": "345548", "line": "3 Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:42:33", "trip_id": "403822", "line": "A Line Commuter", "route": "Coney Island -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:42:33", "trip_id": "421920", "line": "R Line Commuter", "route": "World Trade Center -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:42:33", "trip_id": "640535", "line": "2 Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:42:33", "trip_id": "193791", "line": "A Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:42:33", "trip_id": "920421", "line": "C Line Commuter", "route": "Utica Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:42:33", "trip_id": "381042", "line": "C Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:42:33", "trip_id": "370755", "line": "3 Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:42:33", "trip_id": "672207", "line": "2 Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:43:03", "trip_id": "234702", "line": "N Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:43:03", "trip_id": "778512", "line": "R Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:43:03", "trip_id": "494403", "line": "1 Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:43:03", "trip_id": "204134", "line": "E Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:43:03", "trip_id": "338547", "line": "1 Line Commuter", "route": "World Trade Center -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:43:03", "trip_id": "916319", "line": "C Line Commuter", "route": "Astoria - Ditmars -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:43:03", "trip_id": "392983", "line": "C Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:43:03", "trip_id": "692816", "line": "2 Line Commuter", "route": "Astoria - Ditmars -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:43:03", "trip_id": "772240", "line": "1 Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:43:03", "trip_id": "647576", "line": "3 Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:43:33", "trip_id": "460897", "line": "E Line Commuter", "route": "Astoria - Ditmars -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:43:33", "trip_id": "799860", "line": "2 Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:43:33", "trip_id": "405574", "line": "C Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:43:33", "trip_id": "396720", "line": "Q Line Commuter", "route": "World Trade Center -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:43:33", "trip_id": "403225", "line": "C Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:43:33", "trip_id": "717392", "line": "E Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:43:33", "trip_id": "607355", "line": "R Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:43:33", "trip_id": "739168", "line": "R Line Commuter", "route": "Lefferts Blvd -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:43:33", "trip_id": "328911", "line": "C Line Commuter", "route": "Utica Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:43:33", "trip_id": "483110", "line": "A Line Commuter", "route": "South Ferry -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:44:03", "trip_id": "632634", "line": "N Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:44:03", "trip_id": "103326", "line": "A Line Commuter", "route": "World Trade Center -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:44:03", "trip_id": "791368", "line": "E Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:44:03", "trip_id": "722864", "line": "1 Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:44:03", "trip_id": "970385", "line": "E Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:44:03", "trip_id": "447953", "line": "E Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:44:03", "trip_id": "680380", "line": "R Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:44:03", "trip_id": "829744", "line": "E Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:44:03", "trip_id": "427357", "line": "R Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:44:03", "trip_id": "733973", "line": "3 Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:44:33", "trip_id": "533186", "line": "R Line Commuter", "route": "Utica Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:44:33", "trip_id": "187067", "line": "R Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:44:33", "trip_id": "960075", "line": "C Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:44:33", "trip_id": "149490", "line": "3 Line Commuter", "route": "Lefferts Blvd -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:44:33", "trip_id": "929014", "line": "A Line Commuter", "route": "Coney Island -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:44:33", "trip_id": "444612", "line": "N Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:44:33", "trip_id": "609183", "line": "1 Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:44:33", "trip_id": "166618", "line": "N Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:44:33", "trip_id": "224826", "line": "A Line Commuter", "route": "World Trade Center -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:44:33", "trip_id": "503731", "line": "2 Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:45:04", "trip_id": "775109", "line": "1 Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:45:04", "trip_id": "737230", "line": "1 Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:45:04", "trip_id": "829040", "line": "2 Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:45:04", "trip_id": "734130", "line": "C Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:45:04", "trip_id": "217876", "line": "A Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:45:04", "trip_id": "794472", "line": "1 Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:45:04", "trip_id": "399915", "line": "E Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:45:04", "trip_id": "679166", "line": "1 Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:45:04", "trip_id": "321101", "line": "R Line Commuter", "route": "Astoria - Ditmars -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:45:04", "trip_id": "358927", "line": "C Line Commuter", "route": "World Trade Center -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:45:34", "trip_id": "237976", "line": "E Line Commuter", "route": "South Ferry -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:45:34", "trip_id": "443796", "line": "N Line Commuter", "route": "Coney Island -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:45:34", "trip_id": "545917", "line": "A Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:45:34", "trip_id": "990000", "line": "E Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:45:34", "trip_id": "654216", "line": "2 Line Commuter", "route": "Lefferts Blvd -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:45:34", "trip_id": "476530", "line": "A Line Commuter", "route": "Coney Island -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:45:34", "trip_id": "347230", "line": "E Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:45:34", "trip_id": "994907", "line": "R Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:45:34", "trip_id": "574609", "line": "A Line Commuter", "route": "World Trade Center -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:45:34", "trip_id": "307824", "line": "3 Line Commuter", "route": "Coney Island -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:46:05", "trip_id": "975737", "line": "R Line Commuter", "route": "Utica Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:46:05", "trip_id": "221532", "line": "2 Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:46:05", "trip_id": "190240", "line": "A Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:46:05", "trip_id": "863252", "line": "1 Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:46:05", "trip_id": "800175", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:46:05", "trip_id": "373732", "line": "Q Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:46:05", "trip_id": "904912", "line": "1 Line Commuter", "route": "South Ferry -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:46:05", "trip_id": "603863", "line": "E Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:46:05", "trip_id": "878003", "line": "1 Line Commuter", "route": "Astoria - Ditmars -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:46:05", "trip_id": "656688", "line": "3 Line Commuter", "route": "Lefferts Blvd -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:46:35", "trip_id": "328212", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:46:35", "trip_id": "885697", "line": "N Line Commuter", "route": "Astoria - Ditmars -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:46:35", "trip_id": "367636", "line": "N Line Commuter", "route": "World Trade Center -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:46:35", "trip_id": "317917", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:46:35", "trip_id": "912705", "line": "3 Line Commuter", "route": "South Ferry -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:46:35", "trip_id": "679832", "line": "C Line Commuter", "route": "South Ferry -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:46:35", "trip_id": "418243", "line": "3 Line Commuter", "route": "Utica Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:46:35", "trip_id": "844086", "line": "N Line Commuter", "route": "Coney Island -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:46:35", "trip_id": "900796", "line": "E Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:46:35", "trip_id": "287930", "line": "Q Line Commuter", "route": "Coney Island -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:47:05", "trip_id": "994521", "line": "C Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:47:05", "trip_id": "559941", "line": "Q Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:47:05", "trip_id": "858728", "line": "R Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:47:05", "trip_id": "196094", "line": "2 Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:47:05", "trip_id": "679581", "line": "Q Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:47:05", "trip_id": "729856", "line": "C Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:47:05", "trip_id": "974831", "line": "A Line Commuter", "route": "South Ferry -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:47:05", "trip_id": "865329", "line": "N Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:47:05", "trip_id": "539609", "line": "1 Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:47:05", "trip_id": "241760", "line": "3 Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:47:35", "trip_id": "267171", "line": "2 Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:47:35", "trip_id": "349032", "line": "1 Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:47:35", "trip_id": "696897", "line": "C Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:47:35", "trip_id": "672284", "line": "A Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:47:35", "trip_id": "393939", "line": "2 Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:47:35", "trip_id": "492394", "line": "N Line Commuter", "route": "Astoria - Ditmars -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:47:35", "trip_id": "644320", "line": "N Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:47:35", "trip_id": "840113", "line": "3 Line Commuter", "route": "Lefferts Blvd -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:47:35", "trip_id": "201234", "line": "N Line Commuter", "route": "World Trade Center -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:47:35", "trip_id": "992051", "line": "3 Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:48:05", "trip_id": "947256", "line": "A Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:48:05", "trip_id": "322705", "line": "E Line Commuter", "route": "Lefferts Blvd -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:48:05", "trip_id": "603896", "line": "N Line Commuter", "route": "Lefferts Blvd -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:48:05", "trip_id": "654086", "line": "1 Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:48:05", "trip_id": "731024", "line": "R Line Commuter", "route": "South Ferry -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:48:05", "trip_id": "484641", "line": "R Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:48:05", "trip_id": "477920", "line": "Q Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:48:05", "trip_id": "807134", "line": "A Line Commuter", "route": "Coney Island -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:48:05", "trip_id": "575617", "line": "1 Line Commuter", "route": "World Trade Center -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:48:05", "trip_id": "298893", "line": "1 Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:48:36", "trip_id": "110009", "line": "N Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:48:36", "trip_id": "840591", "line": "2 Line Commuter", "route": "Utica Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:48:36", "trip_id": "783901", "line": "N Line Commuter", "route": "Coney Island -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:48:36", "trip_id": "229048", "line": "1 Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:48:36", "trip_id": "918725", "line": "N Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:48:36", "trip_id": "260085", "line": "E Line Commuter", "route": "Utica Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:48:36", "trip_id": "438502", "line": "R Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:48:36", "trip_id": "923343", "line": "2 Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:48:36", "trip_id": "408668", "line": "3 Line Commuter", "route": "Lefferts Blvd -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:48:36", "trip_id": "659784", "line": "3 Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:49:06", "trip_id": "456594", "line": "E Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:49:06", "trip_id": "795365", "line": "2 Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:49:06", "trip_id": "532893", "line": "C Line Commuter", "route": "World Trade Center -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:49:06", "trip_id": "227076", "line": "1 Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:49:06", "trip_id": "637634", "line": "R Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:49:06", "trip_id": "801857", "line": "Q Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:49:06", "trip_id": "637933", "line": "Q Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:49:06", "trip_id": "374172", "line": "1 Line Commuter", "route": "South Ferry -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:49:06", "trip_id": "533163", "line": "Q Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:49:06", "trip_id": "270567", "line": "2 Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:49:36", "trip_id": "930380", "line": "3 Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:49:36", "trip_id": "767598", "line": "Q Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:49:36", "trip_id": "623361", "line": "N Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:49:36", "trip_id": "174566", "line": "1 Line Commuter", "route": "Lefferts Blvd -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:49:36", "trip_id": "470351", "line": "A Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:49:36", "trip_id": "722280", "line": "Q Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:49:36", "trip_id": "914834", "line": "C Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:49:36", "trip_id": "907942", "line": "1 Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:49:36", "trip_id": "259593", "line": "1 Line Commuter", "route": "Coney Island -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:49:36", "trip_id": "586649", "line": "R Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:50:06", "trip_id": "870777", "line": "2 Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:50:06", "trip_id": "494302", "line": "R Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:50:06", "trip_id": "814245", "line": "R Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:50:06", "trip_id": "835258", "line": "1 Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:50:06", "trip_id": "293602", "line": "E Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:50:06", "trip_id": "830311", "line": "C Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:50:06", "trip_id": "854155", "line": "A Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:50:06", "trip_id": "276890", "line": "R Line Commuter", "route": "Utica Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:50:06", "trip_id": "174955", "line": "C Line Commuter", "route": "Lefferts Blvd -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:50:06", "trip_id": "312679", "line": "R Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:50:37", "trip_id": "249615", "line": "E Line Commuter", "route": "World Trade Center -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:50:37", "trip_id": "563011", "line": "3 Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:50:37", "trip_id": "914539", "line": "2 Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:50:37", "trip_id": "639489", "line": "R Line Commuter", "route": "Lefferts Blvd -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:50:37", "trip_id": "666770", "line": "1 Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:50:37", "trip_id": "478175", "line": "3 Line Commuter", "route": "Utica Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:50:37", "trip_id": "555725", "line": "R Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:50:37", "trip_id": "632928", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:50:37", "trip_id": "573677", "line": "Q Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:50:37", "trip_id": "962608", "line": "N Line Commuter", "route": "Astoria - Ditmars -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:51:07", "trip_id": "951667", "line": "C Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:51:07", "trip_id": "603768", "line": "A Line Commuter", "route": "Lefferts Blvd -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:51:07", "trip_id": "909021", "line": "2 Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:51:07", "trip_id": "283188", "line": "1 Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:51:07", "trip_id": "715807", "line": "3 Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:51:07", "trip_id": "458075", "line": "R Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:51:07", "trip_id": "693611", "line": "N Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:51:07", "trip_id": "852000", "line": "R Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:51:07", "trip_id": "281509", "line": "A Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:51:07", "trip_id": "806479", "line": "N Line Commuter", "route": "South Ferry -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:51:38", "trip_id": "151034", "line": "Q Line Commuter", "route": "Utica Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:51:38", "trip_id": "321241", "line": "E Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:51:38", "trip_id": "682300", "line": "A Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:51:38", "trip_id": "196781", "line": "N Line Commuter", "route": "World Trade Center -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:51:38", "trip_id": "533331", "line": "C Line Commuter", "route": "Utica Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:51:38", "trip_id": "774087", "line": "C Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:51:38", "trip_id": "724202", "line": "1 Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:51:38", "trip_id": "715505", "line": "2 Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:51:38", "trip_id": "168561", "line": "A Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:51:38", "trip_id": "938996", "line": "1 Line Commuter", "route": "South Ferry -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:52:08", "trip_id": "722609", "line": "1 Line Commuter", "route": "Lefferts Blvd -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:52:08", "trip_id": "434304", "line": "R Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:52:08", "trip_id": "412832", "line": "E Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:52:08", "trip_id": "660440", "line": "N Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:52:08", "trip_id": "898386", "line": "1 Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:52:08", "trip_id": "418095", "line": "A Line Commuter", "route": "South Ferry -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:52:08", "trip_id": "487589", "line": "R Line Commuter", "route": "World Trade Center -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:52:08", "trip_id": "478682", "line": "1 Line Commuter", "route": "World Trade Center -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:52:08", "trip_id": "103982", "line": "1 Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:52:08", "trip_id": "811640", "line": "A Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:52:38", "trip_id": "514658", "line": "A Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:52:38", "trip_id": "424025", "line": "3 Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:52:38", "trip_id": "572614", "line": "R Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:52:38", "trip_id": "191469", "line": "E Line Commuter", "route": "World Trade Center -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:52:38", "trip_id": "340906", "line": "N Line Commuter", "route": "South Ferry -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:52:38", "trip_id": "691849", "line": "A Line Commuter", "route": "Utica Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:52:38", "trip_id": "143041", "line": "N Line Commuter", "route": "Lefferts Blvd -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:52:38", "trip_id": "916731", "line": "C Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:52:38", "trip_id": "747338", "line": "3 Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:52:38", "trip_id": "767659", "line": "1 Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:53:08", "trip_id": "546789", "line": "N Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:53:08", "trip_id": "744831", "line": "R Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:53:08", "trip_id": "692891", "line": "2 Line Commuter", "route": "Utica Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:53:08", "trip_id": "888551", "line": "2 Line Commuter", "route": "Coney Island -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:53:08", "trip_id": "469871", "line": "3 Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:53:08", "trip_id": "457404", "line": "N Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:53:08", "trip_id": "182965", "line": "E Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:53:08", "trip_id": "895273", "line": "N Line Commuter", "route": "Lefferts Blvd -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:53:08", "trip_id": "803403", "line": "E Line Commuter", "route": "South Ferry -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:53:08", "trip_id": "123496", "line": "R Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:53:38", "trip_id": "622979", "line": "E Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:53:38", "trip_id": "929115", "line": "3 Line Commuter", "route": "Coney Island -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:53:38", "trip_id": "561858", "line": "1 Line Commuter", "route": "Coney Island -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:53:38", "trip_id": "134166", "line": "R Line Commuter", "route": "Coney Island -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:53:38", "trip_id": "927267", "line": "1 Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:53:38", "trip_id": "908653", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:53:38", "trip_id": "555832", "line": "2 Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:53:38", "trip_id": "293788", "line": "Q Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:53:38", "trip_id": "561700", "line": "3 Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:53:38", "trip_id": "349783", "line": "Q Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:54:09", "trip_id": "981807", "line": "2 Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:54:09", "trip_id": "651984", "line": "R Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:54:09", "trip_id": "890943", "line": "N Line Commuter", "route": "World Trade Center -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:54:09", "trip_id": "587087", "line": "Q Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:54:09", "trip_id": "935889", "line": "Q Line Commuter", "route": "World Trade Center -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:54:09", "trip_id": "961210", "line": "3 Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:54:09", "trip_id": "605573", "line": "C Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:54:09", "trip_id": "469205", "line": "1 Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:54:09", "trip_id": "538604", "line": "A Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:54:09", "trip_id": "670531", "line": "A Line Commuter", "route": "World Trade Center -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:54:39", "trip_id": "490940", "line": "N Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:54:39", "trip_id": "865130", "line": "R Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:54:39", "trip_id": "281147", "line": "R Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:54:39", "trip_id": "883517", "line": "C Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:54:39", "trip_id": "969752", "line": "1 Line Commuter", "route": "World Trade Center -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:54:39", "trip_id": "410014", "line": "E Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:54:39", "trip_id": "776090", "line": "A Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:54:39", "trip_id": "876108", "line": "C Line Commuter", "route": "Coney Island -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:54:39", "trip_id": "226093", "line": "R Line Commuter", "route": "Astoria - Ditmars -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:54:39", "trip_id": "865326", "line": "E Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:55:10", "trip_id": "903459", "line": "A Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:55:10", "trip_id": "586608", "line": "3 Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:55:10", "trip_id": "256720", "line": "2 Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:55:10", "trip_id": "306295", "line": "A Line Commuter", "route": "World Trade Center -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:55:10", "trip_id": "587165", "line": "A Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:55:10", "trip_id": "570147", "line": "E Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:55:10", "trip_id": "496204", "line": "C Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:55:10", "trip_id": "813344", "line": "C Line Commuter", "route": "Coney Island -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:55:10", "trip_id": "393985", "line": "R Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:55:10", "trip_id": "946225", "line": "1 Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:55:40", "trip_id": "384011", "line": "A Line Commuter", "route": "Coney Island -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:55:40", "trip_id": "133993", "line": "A Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:55:40", "trip_id": "808246", "line": "Q Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:55:40", "trip_id": "931116", "line": "1 Line Commuter", "route": "South Ferry -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:55:40", "trip_id": "785939", "line": "3 Line Commuter", "route": "South Ferry -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:55:40", "trip_id": "641817", "line": "C Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:55:40", "trip_id": "129180", "line": "2 Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:55:40", "trip_id": "330442", "line": "N Line Commuter", "route": "Utica Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:55:40", "trip_id": "149500", "line": "R Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:55:40", "trip_id": "288972", "line": "A Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:56:10", "trip_id": "911669", "line": "3 Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:56:10", "trip_id": "563694", "line": "C Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:56:10", "trip_id": "314455", "line": "E Line Commuter", "route": "Utica Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:56:10", "trip_id": "279846", "line": "E Line Commuter", "route": "Coney Island -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:56:10", "trip_id": "307424", "line": "N Line Commuter", "route": "Lefferts Blvd -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:56:10", "trip_id": "878932", "line": "E Line Commuter", "route": "Utica Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:56:10", "trip_id": "938803", "line": "N Line Commuter", "route": "Utica Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:56:10", "trip_id": "269922", "line": "R Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:56:10", "trip_id": "717373", "line": "N Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:56:10", "trip_id": "442377", "line": "R Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:56:40", "trip_id": "853296", "line": "R Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:56:40", "trip_id": "184289", "line": "C Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:56:40", "trip_id": "522900", "line": "E Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:56:40", "trip_id": "227972", "line": "R Line Commuter", "route": "Astoria - Ditmars -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:56:40", "trip_id": "546545", "line": "A Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:56:40", "trip_id": "204741", "line": "3 Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:56:40", "trip_id": "460904", "line": "E Line Commuter", "route": "Utica Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:56:40", "trip_id": "320537", "line": "Q Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:56:40", "trip_id": "752420", "line": "R Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:56:40", "trip_id": "244487", "line": "E Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:57:11", "trip_id": "197372", "line": "C Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:57:11", "trip_id": "633482", "line": "R Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:57:11", "trip_id": "382929", "line": "A Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:57:11", "trip_id": "101797", "line": "Q Line Commuter", "route": "World Trade Center -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:57:11", "trip_id": "931936", "line": "1 Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:57:11", "trip_id": "723120", "line": "1 Line Commuter", "route": "Coney Island -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:57:11", "trip_id": "143891", "line": "3 Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:57:11", "trip_id": "317741", "line": "2 Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:57:11", "trip_id": "483529", "line": "A Line Commuter", "route": "Utica Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:57:11", "trip_id": "458733", "line": "E Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:57:41", "trip_id": "423130", "line": "3 Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:57:41", "trip_id": "870845", "line": "C Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:57:41", "trip_id": "699916", "line": "1 Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:57:41", "trip_id": "140170", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:57:41", "trip_id": "965134", "line": "C Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:57:41", "trip_id": "457969", "line": "2 Line Commuter", "route": "South Ferry -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:57:41", "trip_id": "816702", "line": "A Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:57:41", "trip_id": "726372", "line": "1 Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:57:41", "trip_id": "528008", "line": "R Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:57:41", "trip_id": "750701", "line": "E Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:58:11", "trip_id": "898420", "line": "E Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:58:11", "trip_id": "758556", "line": "E Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:58:11", "trip_id": "723824", "line": "R Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:58:11", "trip_id": "535259", "line": "R Line Commuter", "route": "Astoria - Ditmars -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:58:11", "trip_id": "395439", "line": "C Line Commuter", "route": "South Ferry -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:58:11", "trip_id": "449283", "line": "A Line Commuter", "route": "Astoria - Ditmars -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:58:11", "trip_id": "233570", "line": "2 Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:58:11", "trip_id": "397533", "line": "Q Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:58:11", "trip_id": "616049", "line": "R Line Commuter", "route": "Lefferts Blvd -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:58:11", "trip_id": "304312", "line": "3 Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:58:42", "trip_id": "774561", "line": "C Line Commuter", "route": "South Ferry -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:58:42", "trip_id": "883686", "line": "E Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:58:42", "trip_id": "346325", "line": "A Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:58:42", "trip_id": "165026", "line": "2 Line Commuter", "route": "Utica Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:58:42", "trip_id": "165232", "line": "N Line Commuter", "route": "World Trade Center -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:58:42", "trip_id": "997737", "line": "1 Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:58:42", "trip_id": "585024", "line": "C Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:58:42", "trip_id": "156650", "line": "3 Line Commuter", "route": "Lefferts Blvd -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:58:42", "trip_id": "763670", "line": "R Line Commuter", "route": "South Ferry -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:58:42", "trip_id": "761267", "line": "R Line Commuter", "route": "World Trade Center -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:59:12", "trip_id": "151587", "line": "E Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:59:12", "trip_id": "992389", "line": "3 Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:59:12", "trip_id": "274437", "line": "E Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 16:59:12", "trip_id": "784383", "line": "R Line Commuter", "route": "South Ferry -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:59:12", "trip_id": "652469", "line": "3 Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:59:12", "trip_id": "885974", "line": "3 Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:59:12", "trip_id": "417434", "line": "A Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:59:12", "trip_id": "593710", "line": "N Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:59:12", "trip_id": "129637", "line": "E Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:59:12", "trip_id": "102583", "line": "1 Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:59:42", "trip_id": "495440", "line": "3 Line Commuter", "route": "South Ferry -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:59:42", "trip_id": "404631", "line": "R Line Commuter", "route": "Lefferts Blvd -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:59:42", "trip_id": "849725", "line": "A Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 16:59:42", "trip_id": "914748", "line": "2 Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:59:42", "trip_id": "684567", "line": "1 Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:59:42", "trip_id": "323908", "line": "Q Line Commuter", "route": "South Ferry -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 16:59:42", "trip_id": "175261", "line": "A Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 16:59:42", "trip_id": "977343", "line": "R Line Commuter", "route": "World Trade Center -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 16:59:42", "trip_id": "654575", "line": "A Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 16:59:42", "trip_id": "392120", "line": "2 Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:00:12", "trip_id": "585828", "line": "C Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:00:12", "trip_id": "349372", "line": "2 Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:00:12", "trip_id": "235336", "line": "3 Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:00:12", "trip_id": "727416", "line": "E Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:00:12", "trip_id": "714270", "line": "1 Line Commuter", "route": "Coney Island -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:00:12", "trip_id": "775805", "line": "E Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:00:12", "trip_id": "881356", "line": "3 Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:00:12", "trip_id": "403968", "line": "E Line Commuter", "route": "Coney Island -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:00:12", "trip_id": "164795", "line": "C Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:00:12", "trip_id": "717214", "line": "Q Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:00:42", "trip_id": "740158", "line": "E Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:00:42", "trip_id": "531332", "line": "A Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:00:42", "trip_id": "402656", "line": "R Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:00:42", "trip_id": "525778", "line": "N Line Commuter", "route": "Coney Island -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:00:42", "trip_id": "672676", "line": "E Line Commuter", "route": "World Trade Center -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:00:42", "trip_id": "892453", "line": "2 Line Commuter", "route": "Coney Island -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:00:42", "trip_id": "808265", "line": "R Line Commuter", "route": "World Trade Center -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:00:42", "trip_id": "567186", "line": "C Line Commuter", "route": "World Trade Center -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:00:42", "trip_id": "471083", "line": "N Line Commuter", "route": "Lefferts Blvd -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:00:42", "trip_id": "526886", "line": "1 Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:01:12", "trip_id": "268222", "line": "Q Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:01:12", "trip_id": "650925", "line": "1 Line Commuter", "route": "Coney Island -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:01:12", "trip_id": "627469", "line": "R Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:01:12", "trip_id": "152615", "line": "1 Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:01:12", "trip_id": "844697", "line": "C Line Commuter", "route": "World Trade Center -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:01:12", "trip_id": "259750", "line": "N Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:01:12", "trip_id": "194515", "line": "1 Line Commuter", "route": "South Ferry -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:01:12", "trip_id": "404316", "line": "E Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:01:12", "trip_id": "682943", "line": "2 Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:01:12", "trip_id": "774102", "line": "C Line Commuter", "route": "Astoria - Ditmars -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:01:43", "trip_id": "278698", "line": "3 Line Commuter", "route": "World Trade Center -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:01:43", "trip_id": "212896", "line": "3 Line Commuter", "route": "Astoria - Ditmars -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:01:43", "trip_id": "663150", "line": "N Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:01:43", "trip_id": "510107", "line": "2 Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:01:43", "trip_id": "957076", "line": "E Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:01:43", "trip_id": "442238", "line": "N Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:01:43", "trip_id": "636961", "line": "R Line Commuter", "route": "World Trade Center -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:01:43", "trip_id": "287210", "line": "C Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:01:43", "trip_id": "238905", "line": "E Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:01:43", "trip_id": "450498", "line": "N Line Commuter", "route": "Coney Island -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:02:13", "trip_id": "827745", "line": "1 Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:02:13", "trip_id": "631737", "line": "E Line Commuter", "route": "South Ferry -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:02:13", "trip_id": "973098", "line": "3 Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:02:13", "trip_id": "485447", "line": "C Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:02:13", "trip_id": "638643", "line": "N Line Commuter", "route": "World Trade Center -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:02:13", "trip_id": "781238", "line": "2 Line Commuter", "route": "Utica Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:02:13", "trip_id": "939393", "line": "C Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:02:13", "trip_id": "797761", "line": "1 Line Commuter", "route": "Utica Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:02:13", "trip_id": "595305", "line": "A Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:02:13", "trip_id": "658697", "line": "Q Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:02:43", "trip_id": "928261", "line": "3 Line Commuter", "route": "Utica Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:02:43", "trip_id": "139084", "line": "A Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:02:43", "trip_id": "763364", "line": "R Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:02:43", "trip_id": "518717", "line": "3 Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:02:43", "trip_id": "511526", "line": "3 Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:02:43", "trip_id": "459892", "line": "Q Line Commuter", "route": "Coney Island -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:02:43", "trip_id": "837902", "line": "C Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:02:43", "trip_id": "982384", "line": "E Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:02:43", "trip_id": "895871", "line": "N Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:02:43", "trip_id": "724425", "line": "N Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:03:13", "trip_id": "720143", "line": "3 Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:03:13", "trip_id": "273224", "line": "2 Line Commuter", "route": "Astoria - Ditmars -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:03:13", "trip_id": "181271", "line": "3 Line Commuter", "route": "Astoria - Ditmars -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:03:13", "trip_id": "426830", "line": "A Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:03:13", "trip_id": "224184", "line": "R Line Commuter", "route": "Coney Island -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:03:13", "trip_id": "247827", "line": "Q Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:03:13", "trip_id": "628814", "line": "Q Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:03:13", "trip_id": "281616", "line": "N Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:03:13", "trip_id": "874505", "line": "1 Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:03:13", "trip_id": "408397", "line": "1 Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:03:44", "trip_id": "986381", "line": "C Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:03:44", "trip_id": "826961", "line": "3 Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:03:44", "trip_id": "257197", "line": "R Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:03:44", "trip_id": "558640", "line": "Q Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:03:44", "trip_id": "170431", "line": "2 Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:03:44", "trip_id": "620095", "line": "C Line Commuter", "route": "Lefferts Blvd -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:03:44", "trip_id": "689125", "line": "3 Line Commuter", "route": "Coney Island -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:03:44", "trip_id": "731811", "line": "1 Line Commuter", "route": "Astoria - Ditmars -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:03:44", "trip_id": "413069", "line": "E Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:03:44", "trip_id": "775134", "line": "Q Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:04:14", "trip_id": "252790", "line": "N Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:04:14", "trip_id": "478441", "line": "R Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:04:14", "trip_id": "936111", "line": "1 Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:04:14", "trip_id": "236265", "line": "C Line Commuter", "route": "South Ferry -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:04:14", "trip_id": "152578", "line": "3 Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:04:14", "trip_id": "113186", "line": "C Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:04:14", "trip_id": "353124", "line": "N Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:04:14", "trip_id": "164316", "line": "E Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:04:14", "trip_id": "731367", "line": "C Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:04:14", "trip_id": "403997", "line": "Q Line Commuter", "route": "World Trade Center -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:04:44", "trip_id": "614011", "line": "R Line Commuter", "route": "Coney Island -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:04:44", "trip_id": "888005", "line": "A Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:04:44", "trip_id": "272674", "line": "E Line Commuter", "route": "Lefferts Blvd -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:04:44", "trip_id": "507061", "line": "2 Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:04:44", "trip_id": "767934", "line": "3 Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:04:44", "trip_id": "205702", "line": "A Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:04:44", "trip_id": "177188", "line": "N Line Commuter", "route": "World Trade Center -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:04:44", "trip_id": "308517", "line": "R Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:04:44", "trip_id": "770869", "line": "C Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:04:44", "trip_id": "995682", "line": "C Line Commuter", "route": "World Trade Center -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:05:14", "trip_id": "439657", "line": "Q Line Commuter", "route": "Coney Island -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:05:14", "trip_id": "784170", "line": "3 Line Commuter", "route": "South Ferry -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:05:14", "trip_id": "759454", "line": "N Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:05:14", "trip_id": "223786", "line": "E Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:05:14", "trip_id": "686247", "line": "3 Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:05:14", "trip_id": "845563", "line": "3 Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:05:14", "trip_id": "372240", "line": "1 Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:05:14", "trip_id": "631544", "line": "E Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:05:14", "trip_id": "139683", "line": "1 Line Commuter", "route": "Coney Island -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:05:14", "trip_id": "790135", "line": "1 Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:05:44", "trip_id": "228863", "line": "2 Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:05:44", "trip_id": "277370", "line": "3 Line Commuter", "route": "Coney Island -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:05:44", "trip_id": "366189", "line": "N Line Commuter", "route": "Utica Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:05:44", "trip_id": "496419", "line": "E Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:05:44", "trip_id": "405435", "line": "3 Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:05:44", "trip_id": "511233", "line": "R Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:05:44", "trip_id": "250255", "line": "N Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:05:44", "trip_id": "536623", "line": "C Line Commuter", "route": "Coney Island -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:05:44", "trip_id": "808796", "line": "A Line Commuter", "route": "World Trade Center -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:05:44", "trip_id": "582311", "line": "C Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:06:14", "trip_id": "514381", "line": "E Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:06:14", "trip_id": "597345", "line": "E Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:06:14", "trip_id": "861485", "line": "Q Line Commuter", "route": "Lefferts Blvd -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:06:14", "trip_id": "981538", "line": "E Line Commuter", "route": "Utica Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:06:14", "trip_id": "243451", "line": "A Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:06:14", "trip_id": "482437", "line": "C Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:06:14", "trip_id": "784441", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:06:14", "trip_id": "933004", "line": "1 Line Commuter", "route": "Coney Island -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:06:14", "trip_id": "645240", "line": "2 Line Commuter", "route": "Astoria - Ditmars -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:06:14", "trip_id": "855580", "line": "R Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:06:45", "trip_id": "371324", "line": "R Line Commuter", "route": "South Ferry -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:06:45", "trip_id": "937206", "line": "C Line Commuter", "route": "South Ferry -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:06:45", "trip_id": "379340", "line": "Q Line Commuter", "route": "South Ferry -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:06:45", "trip_id": "767562", "line": "3 Line Commuter", "route": "Astoria - Ditmars -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:06:45", "trip_id": "142467", "line": "1 Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:06:45", "trip_id": "106148", "line": "1 Line Commuter", "route": "World Trade Center -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:06:45", "trip_id": "616819", "line": "Q Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:06:45", "trip_id": "587165", "line": "C Line Commuter", "route": "Utica Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:06:45", "trip_id": "651578", "line": "R Line Commuter", "route": "Coney Island -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:06:45", "trip_id": "314552", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:07:15", "trip_id": "611239", "line": "1 Line Commuter", "route": "World Trade Center -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:07:15", "trip_id": "498957", "line": "N Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:07:15", "trip_id": "104976", "line": "3 Line Commuter", "route": "South Ferry -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:07:15", "trip_id": "860206", "line": "N Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:07:15", "trip_id": "721385", "line": "R Line Commuter", "route": "Astoria - Ditmars -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:07:15", "trip_id": "649898", "line": "Q Line Commuter", "route": "World Trade Center -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:07:15", "trip_id": "160875", "line": "C Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:07:15", "trip_id": "398080", "line": "A Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:07:15", "trip_id": "707532", "line": "C Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:07:15", "trip_id": "869988", "line": "A Line Commuter", "route": "World Trade Center -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:07:45", "trip_id": "208652", "line": "3 Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:07:45", "trip_id": "666047", "line": "E Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:07:45", "trip_id": "727435", "line": "C Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:07:45", "trip_id": "221333", "line": "E Line Commuter", "route": "Utica Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:07:45", "trip_id": "646669", "line": "2 Line Commuter", "route": "Utica Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:07:45", "trip_id": "511011", "line": "3 Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:07:45", "trip_id": "684029", "line": "1 Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:07:45", "trip_id": "849922", "line": "E Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:07:45", "trip_id": "745437", "line": "R Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:07:45", "trip_id": "144071", "line": "E Line Commuter", "route": "Coney Island -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:08:15", "trip_id": "397138", "line": "C Line Commuter", "route": "Astoria - Ditmars -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:08:15", "trip_id": "366679", "line": "2 Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:08:15", "trip_id": "410511", "line": "A Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:08:15", "trip_id": "888382", "line": "N Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:08:15", "trip_id": "336098", "line": "A Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:08:15", "trip_id": "458685", "line": "Q Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:08:15", "trip_id": "107249", "line": "A Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:08:15", "trip_id": "548233", "line": "R Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:08:15", "trip_id": "124580", "line": "2 Line Commuter", "route": "World Trade Center -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:08:15", "trip_id": "881230", "line": "C Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:08:46", "trip_id": "723490", "line": "2 Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:08:46", "trip_id": "596624", "line": "R Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:08:46", "trip_id": "726062", "line": "N Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:08:46", "trip_id": "591555", "line": "R Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:08:46", "trip_id": "750060", "line": "3 Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:08:46", "trip_id": "636635", "line": "E Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:08:46", "trip_id": "401309", "line": "1 Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:08:46", "trip_id": "977053", "line": "1 Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:08:46", "trip_id": "730780", "line": "3 Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:08:46", "trip_id": "199384", "line": "E Line Commuter", "route": "World Trade Center -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:09:16", "trip_id": "714606", "line": "Q Line Commuter", "route": "Utica Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:09:16", "trip_id": "162009", "line": "1 Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:09:16", "trip_id": "306028", "line": "R Line Commuter", "route": "Astoria - Ditmars -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:09:16", "trip_id": "550766", "line": "Q Line Commuter", "route": "South Ferry -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:09:16", "trip_id": "264308", "line": "3 Line Commuter", "route": "World Trade Center -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:09:16", "trip_id": "447353", "line": "1 Line Commuter", "route": "Lefferts Blvd -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:09:16", "trip_id": "919898", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:09:16", "trip_id": "162524", "line": "C Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:09:16", "trip_id": "446888", "line": "N Line Commuter", "route": "Lefferts Blvd -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:09:16", "trip_id": "873421", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:09:47", "trip_id": "320025", "line": "2 Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:09:47", "trip_id": "621889", "line": "C Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:09:47", "trip_id": "492325", "line": "E Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:09:47", "trip_id": "533548", "line": "1 Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:09:47", "trip_id": "945714", "line": "1 Line Commuter", "route": "South Ferry -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:09:47", "trip_id": "697896", "line": "A Line Commuter", "route": "Utica Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:09:47", "trip_id": "143762", "line": "R Line Commuter", "route": "South Ferry -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:09:47", "trip_id": "905896", "line": "N Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:09:47", "trip_id": "268555", "line": "N Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:09:47", "trip_id": "226577", "line": "2 Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:10:17", "trip_id": "321195", "line": "A Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:10:17", "trip_id": "544293", "line": "1 Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:10:17", "trip_id": "950184", "line": "1 Line Commuter", "route": "Coney Island -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:10:17", "trip_id": "476598", "line": "3 Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:10:17", "trip_id": "969130", "line": "Q Line Commuter", "route": "Utica Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:10:17", "trip_id": "429598", "line": "3 Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:10:17", "trip_id": "883050", "line": "E Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:10:17", "trip_id": "931085", "line": "2 Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:10:17", "trip_id": "925244", "line": "N Line Commuter", "route": "World Trade Center -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:10:17", "trip_id": "820416", "line": "3 Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:10:47", "trip_id": "795604", "line": "A Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:10:47", "trip_id": "183583", "line": "R Line Commuter", "route": "Utica Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:10:47", "trip_id": "332747", "line": "R Line Commuter", "route": "Astoria - Ditmars -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:10:47", "trip_id": "907929", "line": "Q Line Commuter", "route": "South Ferry -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:10:47", "trip_id": "740189", "line": "Q Line Commuter", "route": "World Trade Center -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:10:47", "trip_id": "161587", "line": "A Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:10:47", "trip_id": "566550", "line": "Q Line Commuter", "route": "South Ferry -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:10:47", "trip_id": "347497", "line": "R Line Commuter", "route": "Utica Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:10:47", "trip_id": "964516", "line": "3 Line Commuter", "route": "Lefferts Blvd -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:10:47", "trip_id": "349795", "line": "N Line Commuter", "route": "Lefferts Blvd -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:11:17", "trip_id": "518057", "line": "N Line Commuter", "route": "Coney Island -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:11:17", "trip_id": "238993", "line": "C Line Commuter", "route": "Utica Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:11:17", "trip_id": "948770", "line": "A Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:11:17", "trip_id": "815568", "line": "E Line Commuter", "route": "Utica Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:11:17", "trip_id": "185792", "line": "3 Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:11:17", "trip_id": "747247", "line": "3 Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:11:17", "trip_id": "250023", "line": "A Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:11:17", "trip_id": "773892", "line": "C Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:11:17", "trip_id": "342563", "line": "N Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:11:17", "trip_id": "420939", "line": "3 Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:11:47", "trip_id": "434229", "line": "A Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:11:47", "trip_id": "801332", "line": "3 Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:11:47", "trip_id": "324406", "line": "R Line Commuter", "route": "Astoria - Ditmars -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:11:47", "trip_id": "717385", "line": "C Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:11:47", "trip_id": "948740", "line": "E Line Commuter", "route": "Lefferts Blvd -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:11:47", "trip_id": "172692", "line": "1 Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:11:47", "trip_id": "690682", "line": "2 Line Commuter", "route": "World Trade Center -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:11:47", "trip_id": "204570", "line": "2 Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:11:47", "trip_id": "736070", "line": "C Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:11:47", "trip_id": "333478", "line": "R Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:12:17", "trip_id": "772122", "line": "1 Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:12:17", "trip_id": "854191", "line": "3 Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:12:17", "trip_id": "365353", "line": "N Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:12:17", "trip_id": "903929", "line": "3 Line Commuter", "route": "Astoria - Ditmars -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:12:17", "trip_id": "800136", "line": "R Line Commuter", "route": "Astoria - Ditmars -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:12:17", "trip_id": "116549", "line": "E Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:12:17", "trip_id": "765772", "line": "Q Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:12:17", "trip_id": "515812", "line": "R Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:12:17", "trip_id": "324712", "line": "1 Line Commuter", "route": "Coney Island -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:12:17", "trip_id": "903733", "line": "C Line Commuter", "route": "South Ferry -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:12:48", "trip_id": "974017", "line": "N Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:12:48", "trip_id": "825641", "line": "3 Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:12:48", "trip_id": "598900", "line": "2 Line Commuter", "route": "Astoria - Ditmars -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:12:48", "trip_id": "601363", "line": "E Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:12:48", "trip_id": "687192", "line": "C Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:12:48", "trip_id": "874946", "line": "Q Line Commuter", "route": "World Trade Center -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:12:48", "trip_id": "743751", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:12:48", "trip_id": "434346", "line": "C Line Commuter", "route": "Flatbush Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:12:48", "trip_id": "875776", "line": "1 Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:12:48", "trip_id": "819859", "line": "1 Line Commuter", "route": "South Ferry -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:13:18", "trip_id": "942997", "line": "R Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:13:18", "trip_id": "332723", "line": "1 Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:13:18", "trip_id": "447942", "line": "A Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:13:18", "trip_id": "173105", "line": "A Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:13:18", "trip_id": "452844", "line": "3 Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:13:18", "trip_id": "585289", "line": "A Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:13:18", "trip_id": "292681", "line": "1 Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:13:18", "trip_id": "260339", "line": "R Line Commuter", "route": "World Trade Center -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:13:18", "trip_id": "901206", "line": "2 Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:13:18", "trip_id": "353811", "line": "N Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:13:48", "trip_id": "192208", "line": "2 Line Commuter", "route": "South Ferry -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:13:48", "trip_id": "953954", "line": "R Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:13:48", "trip_id": "494296", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:13:48", "trip_id": "552829", "line": "A Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:13:48", "trip_id": "983259", "line": "E Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:13:48", "trip_id": "822833", "line": "1 Line Commuter", "route": "Coney Island -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:13:48", "trip_id": "772595", "line": "1 Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:13:48", "trip_id": "887233", "line": "E Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:13:48", "trip_id": "360028", "line": "R Line Commuter", "route": "World Trade Center -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:13:48", "trip_id": "327074", "line": "Q Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:14:18", "trip_id": "800805", "line": "Q Line Commuter", "route": "South Ferry -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:14:18", "trip_id": "389840", "line": "2 Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:14:18", "trip_id": "118708", "line": "1 Line Commuter", "route": "Coney Island -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:14:18", "trip_id": "523413", "line": "R Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:14:18", "trip_id": "389293", "line": "Q Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:14:18", "trip_id": "741152", "line": "2 Line Commuter", "route": "South Ferry -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:14:18", "trip_id": "287277", "line": "C Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:14:18", "trip_id": "510979", "line": "C Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:14:18", "trip_id": "285227", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:14:18", "trip_id": "719573", "line": "R Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:14:48", "trip_id": "284356", "line": "Q Line Commuter", "route": "South Ferry -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:14:48", "trip_id": "321551", "line": "Q Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:14:48", "trip_id": "753755", "line": "R Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:14:48", "trip_id": "159033", "line": "N Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:14:48", "trip_id": "742680", "line": "E Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:14:48", "trip_id": "435980", "line": "C Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:14:48", "trip_id": "947308", "line": "E Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:14:48", "trip_id": "363121", "line": "N Line Commuter", "route": "World Trade Center -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:14:48", "trip_id": "293208", "line": "C Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:14:48", "trip_id": "711698", "line": "1 Line Commuter", "route": "World Trade Center -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:15:18", "trip_id": "630339", "line": "1 Line Commuter", "route": "South Ferry -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:15:18", "trip_id": "551712", "line": "2 Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:15:18", "trip_id": "108446", "line": "R Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:15:18", "trip_id": "724038", "line": "N Line Commuter", "route": "Coney Island -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:15:18", "trip_id": "211514", "line": "2 Line Commuter", "route": "South Ferry -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:15:18", "trip_id": "120317", "line": "Q Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:15:18", "trip_id": "165414", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:15:18", "trip_id": "987104", "line": "R Line Commuter", "route": "World Trade Center -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:15:18", "trip_id": "133279", "line": "1 Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:15:18", "trip_id": "214327", "line": "1 Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:15:49", "trip_id": "156732", "line": "3 Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:15:49", "trip_id": "695485", "line": "N Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:15:49", "trip_id": "357423", "line": "2 Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:15:49", "trip_id": "238226", "line": "1 Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:15:49", "trip_id": "600989", "line": "A Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:15:49", "trip_id": "585275", "line": "E Line Commuter", "route": "Astoria - Ditmars -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:15:49", "trip_id": "509342", "line": "E Line Commuter", "route": "World Trade Center -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:15:49", "trip_id": "191349", "line": "3 Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:15:49", "trip_id": "863197", "line": "1 Line Commuter", "route": "South Ferry -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:15:49", "trip_id": "890830", "line": "A Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:16:19", "trip_id": "964798", "line": "A Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:16:19", "trip_id": "569416", "line": "C Line Commuter", "route": "World Trade Center -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:16:19", "trip_id": "964097", "line": "3 Line Commuter", "route": "World Trade Center -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:16:19", "trip_id": "632927", "line": "N Line Commuter", "route": "Astoria - Ditmars -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:16:19", "trip_id": "826493", "line": "E Line Commuter", "route": "World Trade Center -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:16:19", "trip_id": "328593", "line": "3 Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:16:19", "trip_id": "203678", "line": "C Line Commuter", "route": "Astoria - Ditmars -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:16:19", "trip_id": "947149", "line": "Q Line Commuter", "route": "Utica Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:16:19", "trip_id": "126276", "line": "E Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:16:19", "trip_id": "434335", "line": "R Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:16:49", "trip_id": "865705", "line": "E Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:16:49", "trip_id": "274878", "line": "2 Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:16:49", "trip_id": "257066", "line": "Q Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:16:49", "trip_id": "526551", "line": "N Line Commuter", "route": "Coney Island -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:16:49", "trip_id": "753810", "line": "R Line Commuter", "route": "Lefferts Blvd -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:16:49", "trip_id": "328083", "line": "C Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:16:49", "trip_id": "647121", "line": "1 Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:16:49", "trip_id": "534227", "line": "2 Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:16:49", "trip_id": "212723", "line": "N Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:16:49", "trip_id": "741416", "line": "2 Line Commuter", "route": "Coney Island -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:17:19", "trip_id": "468157", "line": "Q Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:17:19", "trip_id": "469039", "line": "R Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:17:19", "trip_id": "350610", "line": "N Line Commuter", "route": "World Trade Center -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:17:19", "trip_id": "325511", "line": "N Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:17:19", "trip_id": "993580", "line": "E Line Commuter", "route": "World Trade Center -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:17:19", "trip_id": "979445", "line": "E Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:17:19", "trip_id": "252735", "line": "2 Line Commuter", "route": "Utica Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:17:19", "trip_id": "446083", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:17:19", "trip_id": "805596", "line": "3 Line Commuter", "route": "Coney Island -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:17:19", "trip_id": "633265", "line": "R Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:17:50", "trip_id": "265675", "line": "2 Line Commuter", "route": "Coney Island -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:17:50", "trip_id": "383942", "line": "3 Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:17:50", "trip_id": "431664", "line": "2 Line Commuter", "route": "Utica Ave -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:17:50", "trip_id": "187146", "line": "Q Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:17:50", "trip_id": "122372", "line": "2 Line Commuter", "route": "World Trade Center -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:17:50", "trip_id": "285780", "line": "Q Line Commuter", "route": "World Trade Center -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:17:50", "trip_id": "488262", "line": "E Line Commuter", "route": "Lefferts Blvd -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:17:50", "trip_id": "950526", "line": "3 Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:17:50", "trip_id": "188058", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:17:50", "trip_id": "528716", "line": "1 Line Commuter", "route": "Lefferts Blvd -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:18:20", "trip_id": "576590", "line": "N Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:18:20", "trip_id": "242346", "line": "3 Line Commuter", "route": "Lefferts Blvd -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:18:20", "trip_id": "483837", "line": "C Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:18:20", "trip_id": "147774", "line": "1 Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:18:20", "trip_id": "350928", "line": "R Line Commuter", "route": "World Trade Center -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 17:18:20", "trip_id": "379220", "line": "2 Line Commuter", "route": "Utica Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:18:20", "trip_id": "111151", "line": "N Line Commuter", "route": "Astoria - Ditmars -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:18:20", "trip_id": "674851", "line": "2 Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:18:20", "trip_id": "583272", "line": "1 Line Commuter", "route": "Lefferts Blvd -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:18:20", "trip_id": "518311", "line": "A Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 17:18:50", "trip_id": "961668", "line": "C Line Commuter", "route": "World Trade Center -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:18:50", "trip_id": "182097", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:18:50", "trip_id": "330009", "line": "1 Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:18:50", "trip_id": "640509", "line": "2 Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:18:50", "trip_id": "453742", "line": "1 Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 17:18:50", "trip_id": "716757", "line": "R Line Commuter", "route": "World Trade Center -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:18:50", "trip_id": "958709", "line": "A Line Commuter", "route": "Lefferts Blvd -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 17:18:50", "trip_id": "118855", "line": "C Line Commuter", "route": "World Trade Center -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 17:18:50", "trip_id": "115404", "line": "C Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 17:18:50", "trip_id": "293701", "line": "N Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 20:41:22", "trip_id": "297871", "line": "E Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 20:41:22", "trip_id": "862219", "line": "3 Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 20:41:22", "trip_id": "652937", "line": "3 Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 20:41:22", "trip_id": "659501", "line": "N Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 20:41:22", "trip_id": "231035", "line": "R Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 20:41:22", "trip_id": "859749", "line": "Q Line Commuter", "route": "Astoria - Ditmars -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 20:41:22", "trip_id": "987464", "line": "E Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 20:41:22", "trip_id": "475195", "line": "1 Line Commuter", "route": "Lefferts Blvd -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 20:41:22", "trip_id": "665920", "line": "A Line Commuter", "route": "World Trade Center -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 20:41:22", "trip_id": "393861", "line": "R Line Commuter", "route": "Flatbush Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 20:41:52", "trip_id": "714502", "line": "E Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 20:41:52", "trip_id": "541263", "line": "3 Line Commuter", "route": "World Trade Center -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 20:41:52", "trip_id": "141668", "line": "3 Line Commuter", "route": "Lefferts Blvd -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 20:41:52", "trip_id": "680645", "line": "Q Line Commuter", "route": "World Trade Center -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 20:41:52", "trip_id": "342606", "line": "R Line Commuter", "route": "Utica Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 20:41:52", "trip_id": "290863", "line": "E Line Commuter", "route": "South Ferry -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 20:41:52", "trip_id": "533389", "line": "1 Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 20:41:52", "trip_id": "535662", "line": "C Line Commuter", "route": "World Trade Center -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 20:41:52", "trip_id": "664495", "line": "N Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 20:41:52", "trip_id": "309920", "line": "Q Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 20:42:22", "trip_id": "798308", "line": "E Line Commuter", "route": "Coney Island -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 20:42:22", "trip_id": "278933", "line": "3 Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 20:42:22", "trip_id": "893195", "line": "Q Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 20:42:22", "trip_id": "486632", "line": "2 Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 20:42:22", "trip_id": "501945", "line": "A Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 20:42:22", "trip_id": "966267", "line": "3 Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 20:42:22", "trip_id": "271818", "line": "3 Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 20:42:22", "trip_id": "693337", "line": "3 Line Commuter", "route": "South Ferry -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 20:42:22", "trip_id": "405546", "line": "Q Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 20:42:22", "trip_id": "885434", "line": "1 Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 20:42:53", "trip_id": "516928", "line": "3 Line Commuter", "route": "World Trade Center -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 20:42:53", "trip_id": "139060", "line": "A Line Commuter", "route": "Astoria - Ditmars -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 20:42:53", "trip_id": "987743", "line": "N Line Commuter", "route": "Coney Island -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 20:42:53", "trip_id": "785580", "line": "2 Line Commuter", "route": "South Ferry -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 20:42:53", "trip_id": "229406", "line": "1 Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 20:42:53", "trip_id": "108967", "line": "A Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 20:42:53", "trip_id": "467120", "line": "C Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 20:42:53", "trip_id": "405846", "line": "3 Line Commuter", "route": "Utica Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 20:42:53", "trip_id": "466755", "line": "3 Line Commuter", "route": "Astoria - Ditmars -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 20:42:53", "trip_id": "729252", "line": "E Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 20:43:23", "trip_id": "517059", "line": "Q Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 20:43:23", "trip_id": "630892", "line": "3 Line Commuter", "route": "World Trade Center -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 20:43:23", "trip_id": "349815", "line": "1 Line Commuter", "route": "Coney Island -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 20:43:23", "trip_id": "810598", "line": "R Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 20:43:23", "trip_id": "438631", "line": "2 Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 20:43:23", "trip_id": "491142", "line": "2 Line Commuter", "route": "Utica Ave -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 20:43:23", "trip_id": "694253", "line": "Q Line Commuter", "route": "Flatbush Ave -> Harlem - 148 St"}
+{"timestamp": "2026-07-11 20:43:23", "trip_id": "151650", "line": "1 Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 20:43:23", "trip_id": "664538", "line": "E Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 20:43:23", "trip_id": "834947", "line": "1 Line Commuter", "route": "Astoria - Ditmars -> Wakefield - 241 St"}
+{"timestamp": "2026-07-11 20:43:53", "trip_id": "547065", "line": "3 Line Commuter", "route": "Utica Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 20:43:53", "trip_id": "666066", "line": "R Line Commuter", "route": "World Trade Center -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 20:43:53", "trip_id": "134912", "line": "1 Line Commuter", "route": "Flatbush Ave -> Astoria - Ditmars Blvd"}
+{"timestamp": "2026-07-11 20:43:53", "trip_id": "440443", "line": "A Line Commuter", "route": "Coney Island -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 20:43:53", "trip_id": "335453", "line": "1 Line Commuter", "route": "Utica Ave -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 20:43:53", "trip_id": "911975", "line": "3 Line Commuter", "route": "Lefferts Blvd -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 20:43:53", "trip_id": "238128", "line": "1 Line Commuter", "route": "Astoria - Ditmars -> Coney Island - Stillwell Ave"}
+{"timestamp": "2026-07-11 20:43:53", "trip_id": "647723", "line": "1 Line Commuter", "route": "Flatbush Ave -> Inwood - 207 St"}
+{"timestamp": "2026-07-11 20:43:53", "trip_id": "481960", "line": "N Line Commuter", "route": "South Ferry -> Van Cortlandt Park - 242 St"}
+{"timestamp": "2026-07-11 20:43:53", "trip_id": "486811", "line": "E Line Commuter", "route": "Flatbush Ave -> Van Cortlandt Park - 242 St"}

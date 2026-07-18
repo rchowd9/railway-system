@@ -1,11 +1,9 @@
 import time
 import json
-import urllib.request
 import redis
 import random
 from datetime import datetime, timedelta
 
-# Initialize local Redis connection with RESP2 Protocol handling
 try:
     r = redis.Redis(host='127.0.0.1', port=6379, decode_responses=True, protocol=2)
     r.ping()
@@ -14,107 +12,123 @@ except Exception as e:
     print(f"❌ Could not connect to Redis: {e}")
     exit(1)
 
-print("📡 Python 3.14 MTA Core Ingestion Engine Active...")
+print("📡 Python 3.14 MTA Core Ingestion Engine Active with Robust Defensive Architecture...")
 
-# Open-source public JSON transit relay endpoint
-MTA_FEED_URL = "https://mock-transit-api.herokuapp.com/api/v1/nyct/subway/1"
+last_sim_fetch = 0
+sim_fetch_interval = 30  
+cached_baseline_stream = []
 
 def generate_local_mta_stream():
-    """Generates realistic transit matrices with a realistic 10-15 minute tracking spread."""
-    routes = ["1", "2", "3", "A", "C", "E", "N", "Q", "R"]
-    
-    origins = [
-        "South Ferry", "Utica Ave", "Flatbush Ave", "Lefferts Blvd", 
-        "World Trade Center", "Coney Island", "Astoria - Ditmars"
-    ]
-    
-    destinations = [
-        "Van Cortlandt Park - 242 St", 
-        "Wakefield - 241 St", 
-        "Harlem - 148 St", 
-        "Inwood - 207 St", 
-        "Astoria - Ditmars Blvd", 
-        "Coney Island - Stillwell Ave"
-    ]
+    routes = ["1", "A", "Q", "R"]
+    origins = ["South Ferry", "Utica Ave", "Flatbush Ave", "Coney Island", "Astoria"]
+    destinations = ["Van Cortlandt Park", "Inwood - 207 St", "Astoria - Ditmars Blvd", "Stillwell Ave"]
     
     simulated_timetable = []
     now = datetime.now()
-    
-    # Stagger the baseline arrivals realistically across the hour horizon
     current_offset_minutes = 2 
     
-    for i in range(10):
-        current_offset_minutes += random.randint(5, 12)
-        arrival_dt = now + timedelta(minutes=current_offset_minutes, seconds=random.randint(0, 59))
-        
-        # Enforce spacing arrival and departure by 10 to 15 minutes
-        travel_spread_minutes = random.randint(10, 15)
-        departure_dt = arrival_dt + timedelta(minutes=travel_spread_minutes, seconds=random.randint(0, 59))
-        
-        # Format explicitly with seconds to support the high-fidelity frontend view
-        arr_time = arrival_dt.strftime("%I:%M:%S %p")
-        dep_time = departure_dt.strftime("%I:%M:%S %p")
+    for i in range(8):
+        # Enforce varied increments so countdown values never overlap identically
+        current_offset_minutes += random.randint(6, 14)
+        random_seconds = random.randint(0, 59)
+
+        arrival_dt = now + timedelta(minutes=current_offset_minutes, seconds=random_seconds)
+        departure_dt = arrival_dt + timedelta(minutes=8)
         
         simulated_timetable.append({
             'id': f"{random.randint(100000, 999999)}",
             'line': f"{random.choice(routes)} Line Commuter",
             'origin': random.choice(origins),
             'destination': random.choice(destinations),
-            'arrival': arr_time,
-            'departure': dep_time
+            'arrival_timestamp': int(arrival_dt.timestamp()),
+            # %I (12-hour clock) removes broken 24-hour PM collisions like 20:02:46 PM
+            'arrival': arrival_dt.strftime("%I:%M:%S %p"),
+            'departure': departure_dt.strftime("%I:%M:%S %p"),
+            'lat': random.uniform(40.70, 40.85),
+            'lon': random.uniform(-74.00, -73.90)
         })
-        
     return simulated_timetable
 
 while True:
-    live_timetable = []
+    current_time = time.time()
+    
+    if current_time - last_sim_fetch >= sim_fetch_interval or not cached_baseline_stream:
+        cached_baseline_stream = generate_local_mta_stream()
+        last_sim_fetch = current_time
+        print("🔄 Baseline Cache Refreshed: New unique simulation timelines mapped.")
+    
+    live_timetable = list(cached_baseline_stream)
     
     try:
-        print("⚡ Requesting live vector stream via standard socket...")
-        req = urllib.request.Request(
-            MTA_FEED_URL, 
-            headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
-        )
-        
-        with urllib.request.urlopen(req, timeout=5) as response:
-            if response.status == 200:
-                raw_data = response.read().decode('utf-8')
-                feed_data = json.loads(raw_data)
+        admin_override = r.get('mta-admin-override')
+        if admin_override:
+            try:
+                overridden_trains = json.loads(admin_override)
                 
-                if "trips" in feed_data and feed_data["trips"]:
-                    for trip in feed_data["trips"]:
-                        stops = trip.get("stop_updates", [])
-                        if stops:
-                            next_stop = stops[0]
-                            arr_ts = next_stop.get("arrival_time")
-                            dep_ts = next_stop.get("departure_time")
-                            
-                            # Calculate structural text values with seconds included
-                            arr_time = datetime.fromtimestamp(arr_ts).strftime("%I:%M:%S %p") if arr_ts else "--:--:--"
-                            dep_time = datetime.fromtimestamp(dep_ts).strftime("%I:%M:%S %p") if dep_ts else "--:--:--"
-                            
-                            live_timetable.append({
-                                'id': trip.get("trip_id", "UNK").split('_')[-1],
-                                'line': f"{trip.get('route_id', 'Subway')} Line Commuter",
-                                'origin': "Terminal Start",
-                                'destination': trip.get("destination", "In Transit"),
-                                'arrival': arr_time,
-                                'departure': dep_time
-                            })
+                # EDGE CASE: If data is corrupted into a non-list format, normalize safely
+                if not isinstance(overridden_trains, list):
+                    overridden_trains = []
+                    
+                updated_overrides = []
+                now_ts = int(time.time())
                 
-                # If external stream parses out to look zeroed out or overly tight, fall back immediately
-                if len(live_timetable) < 3:
-                    print("⚠️ Live feed data too limited or stale. Initializing robust generation fallback...")
-                    live_timetable = generate_local_mta_stream()
-                            
-    except Exception as e:
-        print(f"⚠️ External Stream Offline ({e}). Activating Local Auto-Generation Mode...")
-        live_timetable = generate_local_mta_stream()
+                for train in overridden_trains:
+                    # EDGE CASE: Skip malformed entry blocks that aren't dict profiles
+                    if not isinstance(train, dict) or 'id' not in train:
+                        continue
+                        
+                    if 'arrival_timestamp' not in train or not train['arrival_timestamp']:
+                        train['arrival_timestamp'] = now_ts + 600
+                    
+                    try:
+                        arrival_dt = datetime.fromtimestamp(int(train['arrival_timestamp']))
+                        train['arrival'] = arrival_dt.strftime("%I:%M:%S %p")
+                    except (ValueError, TypeError):
+                        train['arrival_timestamp'] = now_ts + 600
+                        train['arrival'] = datetime.fromtimestamp(train['arrival_timestamp']).strftime("%I:%M:%S %p")
+                    
+                    if int(train['arrival_timestamp']) > (now_ts - 60):
+                        updated_overrides.append(train)
+                
+                r.set('mta-admin-override', json.dumps(updated_overrides))
+                live_timetable = updated_overrides + live_timetable
+                
+            except json.JSONDecodeError:
+                print("⚠️ Malformed override payload detected. Purging corrupted Redis vector.")
+                r.delete('mta-admin-override') # Fixed: Using valid r.delete() instead of r.del()
+    except Exception as redis_err:
+        print(f"⚠️ Redis connection glitch encountered in main processing thread: {redis_err}")
 
-    # Save the structured data packet out to the Redis engine cache
-    if live_timetable:
-        r.set('mta-live-schedule', json.dumps(live_timetable[:10]))
-        print(f"🔄 Cache Updated: Synchronized 10 active train vectors to Redis matrix.")
+    try:
+        # Compute server-side ETA for each train to reduce client-side skew.
+        now_ts = int(time.time())
+        enriched = []
+        for t in live_timetable[:10]:
+            # Ensure arrival_timestamp exists and is an int
+            at = t.get('arrival_timestamp')
+            if not at:
+                t['arrival_timestamp'] = now_ts + 600
+                at = t['arrival_timestamp']
+
+            try:
+                at = int(at)
+            except Exception:
+                at = now_ts + 600
+                t['arrival_timestamp'] = at
+
+            # ETA in seconds relative to server now
+            t['eta_seconds'] = at - now_ts
+
+            # Ensure a human-friendly arrival string is present
+            try:
+                t['arrival'] = datetime.fromtimestamp(at).strftime("%I:%M:%S %p")
+            except Exception:
+                t['arrival'] = datetime.fromtimestamp(now_ts + t['eta_seconds']).strftime("%I:%M:%S %p")
+
+            enriched.append(t)
+
+        r.set('mta-live-schedule', json.dumps(enriched))
+    except Exception as write_err:
+        print(f"⚠️ Unable to sync live schedule matrix: {write_err}")
         
-    print("💤 Sleeping for 30 seconds before next sync cycle...")
-    time.sleep(30)
+    time.sleep(1)
