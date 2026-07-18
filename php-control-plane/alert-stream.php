@@ -2,35 +2,29 @@
 header('Content-Type: text/event-stream');
 header('Cache-Control: no-cache');
 header('Connection: keep-alive');
-header('X-Accel-Buffering: no'); // Prevents server proxy buffering from stalling the pub/sub feed
+header('X-Accel-Buffering: no');
 
-// Set infinite read timeout so PHP doesn't drop the Redis subscription loop early
-ini_set('default_socket_timeout', -1);
+// Extend execution timeout so the long-lived SSE channel wire doesn't drop
+set_time_limit(0);
 
 $redis = new Redis();
 try {
-    // Dynamically fetch matrix parameters
-    $host = getenv('REDISHOST') ?: '127.0.0.1';
-    $port = getenv('REDISPORT') ?: 6379;
-    $password = getenv('REDISPASSWORD') ?: null;
+    $redis->connect('127.0.0.1', 6379, 0, null, 0, 0, ['protocol' => 2]);
+    $redis->setOption(Redis::OPT_READ_TIMEOUT, -1); // Keep socket pipe open infinitely
+} catch (Exception $e) {
+    exit;
+}
 
-    // Connect using the RESP2 protocol array option matching your terminal configuration
-    $redis->connect($host, (int)$port, 0, null, 0, 0, ['protocol' => 2]);
-    if ($password) {
-        $redis->auth($password);
-    }
-    
-    $redis->setOption(Redis::OPT_READ_TIMEOUT, -1);
-    
-    // Subscribe directly to the Redis messaging pipe
+// Subscribe to the Redis updates channel topology matrix
+try {
     $redis->subscribe(['transit-updates'], function($instance, $channel, $message) {
         echo "data: " . $message . "\n\n";
-        ob_flush();
+        
+        while (ob_get_level() > 0) {
+            ob_end_flush();
+        }
         flush();
     });
 } catch (Exception $e) {
-    echo "data: {\"error\": \"Alert broadcast wire disconnected\"}\n\n";
-    ob_flush();
-    flush();
+    exit;
 }
-?>
