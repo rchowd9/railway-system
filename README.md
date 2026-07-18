@@ -18,6 +18,7 @@ Prerequisites
 - Python 3.10+ (3.11 recommended)
 - PHP 8+ (for the control plane)
 - Go 1.21+ (for the tracker service)
+- XAMPP or another local PHP/Apache stack if you prefer an Apache-based server
 
 Quick local run (minimal)
 
@@ -35,12 +36,20 @@ Or run your local `redis-server`.
 python transit-python-cluster/mta_bridge.py
 ```
 
-3. Serve the PHP control plane (simple built-in server):
+3. Serve the PHP control plane
+
+Option A: PHP built-in server
 
 ```powershell
 cd php-control-plane
 php -S 0.0.0.0:8000
 ```
+
+Option B: XAMPP/Apache
+
+1. Copy the `php-control-plane` contents into your XAMPP `htdocs` folder, or create a symlink to it.
+2. Start Apache from the XAMPP Control Panel.
+3. Open `http://localhost/php-control-plane/timetable.php` or configure a virtual host for a custom path.
 
 4. Open the UI in your browser:
 
@@ -70,3 +79,4 @@ License
 
 Contact
 - If you want me to add CI, container manifests, or Railway deployment files again, tell me which platform and I'll prepare them.
+
