@@ -2,7 +2,7 @@
 header('Content-Type: text/event-stream');
 header('Cache-Control: no-cache');
 header('Connection: keep-alive');
-header('X-Accel-Buffering: no'); // Prevents Nginx/Apache from buffering the live stream chunks
+header('X-Accel-Buffering: no'); 
 
 $redis = new Redis();
 try {
@@ -12,33 +12,45 @@ try {
     exit;
 }
 
-// Stream live schedule updates in a tight loop and include server timestamp
+$last_payload_hash = '';
+
 while (true) {
+    // Check if the connection has been dropped by the browser client
+    if (connection_aborted()) {
+        break;
+    }
+
     $schedule = $redis->get('mta-live-schedule');
     $server_ts = time();
     $sequence = null;
-    try {
-        $sequence = $redis->incr('mta-live-sequence');
-    } catch (Exception $seqErr) {
-        $sequence = null;
-    }
 
-    if ($schedule) {
-        $trains = json_decode($schedule, true);
-        if (!is_array($trains)) { $trains = []; }
+    // Generate hash to detect changes
+    $current_hash = md5($schedule . $server_ts);
+
+    // Only broadcast frame sequences when changes occur
+    if ($current_hash !== $last_payload_hash) {
+        try {
+            $sequence = $redis->incr('mta-live-sequence');
+        } catch (Exception $seqErr) {
+            $sequence = null;
+        }
+
+        $trains = [];
+        if ($schedule) {
+            $trains = json_decode($schedule, true);
+            if (!is_array($trains)) { $trains = []; }
+        }
+
         $payload = json_encode(['server_ts' => $server_ts, 'sequence' => $sequence, 'trains' => $trains]);
         echo "data: " . $payload . "\n\n";
-    } else {
-        $payload = json_encode(['server_ts' => $server_ts, 'sequence' => $sequence, 'trains' => []]);
-        echo "data: " . $payload . "\n\n";
+        
+        $last_payload_hash = $current_hash;
     }
 
-    // Flush the output buffer out to the client browser layout
     while (ob_get_level() > 0) {
         ob_end_flush();
     }
     flush();
 
-    // Sleep 1 second before streaming the next chunk matrix
     sleep(1);
 }
