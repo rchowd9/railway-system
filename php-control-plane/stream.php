@@ -16,13 +16,21 @@ try {
 while (true) {
     $schedule = $redis->get('mta-live-schedule');
     $server_ts = time();
+    $sequence = null;
+    try {
+        $sequence = $redis->incr('mta-live-sequence');
+    } catch (Exception $seqErr) {
+        $sequence = null;
+    }
+
     if ($schedule) {
         $trains = json_decode($schedule, true);
         if (!is_array($trains)) { $trains = []; }
-        $payload = json_encode(['server_ts' => $server_ts, 'trains' => $trains]);
+        $payload = json_encode(['server_ts' => $server_ts, 'sequence' => $sequence, 'trains' => $trains]);
         echo "data: " . $payload . "\n\n";
     } else {
-        echo "data: " . json_encode(['server_ts' => $server_ts, 'trains' => []]) . "\n\n";
+        $payload = json_encode(['server_ts' => $server_ts, 'sequence' => $sequence, 'trains' => []]);
+        echo "data: " . $payload . "\n\n";
     }
 
     // Flush the output buffer out to the client browser layout

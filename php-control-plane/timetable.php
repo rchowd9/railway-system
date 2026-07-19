@@ -84,6 +84,7 @@ try {
     <script>
     let scheduleSource, alertSource;
     let activeFilter = 'ALL';
+    let lastStreamSequence = 0;
 
     const map = L.map('map-panel').setView([40.7580, -73.9855], 11);
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png').addTo(map);
@@ -98,46 +99,70 @@ try {
         scheduleSource.onmessage = function(event) {
                 try {
                     const payload = JSON.parse(event.data);
-                    let serverTs = null;
+                    let serverTs = Math.floor(Date.now() / 1000);
                     let trains = [];
+                    let sequence = null;
 
                     // Backwards-compat: support both wrapped payloads ({server_ts,trains}) and legacy arrays
                     if (Array.isArray(payload)) {
                         trains = payload;
-                        serverTs = Math.floor(Date.now() / 1000);
                     } else {
-                        serverTs = payload.server_ts || Math.floor(Date.now() / 1000);
-                        trains = payload.trains || [];
+                        if (Number.isFinite(Number(payload.server_ts))) {
+                            serverTs = Number(payload.server_ts);
+                        }
+                        trains = Array.isArray(payload.trains) ? payload.trains : [];
+                        if (Number.isFinite(Number(payload.sequence))) {
+                            sequence = Number(payload.sequence);
+                        }
+                    }
+
+                    // Ignore stale or duplicate stream messages
+                    if (sequence !== null) {
+                        if (window.lastStreamSequence && sequence <= window.lastStreamSequence) {
+                            return;
+                        }
+                        window.lastStreamSequence = sequence;
                     }
 
                     // Compute a clock delta between server and client to avoid skew
                     const clientRecv = Math.floor(Date.now() / 1000);
-                    window.clockDelta = serverTs - clientRecv;
+                    const delta = serverTs - clientRecv;
+                    if (Number.isFinite(delta) && Math.abs(delta) < 300) {
+                        window.clockDelta = delta;
+                    }
 
-                    if (!Array.isArray(trains) || trains.length === 0) return;
-                
+                    if (!Array.isArray(trains) || trains.length === 0) {
+                        mapMarkers.forEach(m => map.removeLayer(m));
+                        mapMarkers = [];
+                        document.getElementById('timetable-rows').innerHTML = '<tr><td colspan="6" style="text-align:center;color:var(--text-muted);padding:40px;"><i class="fa-solid fa-exclamation-triangle"></i> No active trains in the live feed.</td></tr>';
+                        return;
+                    }
+
                     const tbody = document.getElementById('timetable-rows');
-                    tbody.innerHTML = ''; 
+                    tbody.innerHTML = '';
 
                     mapMarkers.forEach(m => map.removeLayer(m));
                     mapMarkers = [];
 
-                    trains.forEach(train => {
+                    trains.forEach((train, index) => {
                         if (!train || typeof train !== 'object') return;
-                    
-                        const firstChar = train.line ? train.line.charAt(0) : 'U';
-                        const displayArrival = train.arrival ? train.arrival : 'TBD';
-                        const displayDeparture = train.departure ? train.departure : 'TBD';
-                        const fallbackTs = train.arrival_timestamp ? train.arrival_timestamp : 0;
+
+                        const firstChar = train.line ? String(train.line).charAt(0) : 'U';
+                        const displayArrival = train.arrival ? String(train.arrival) : 'TBD';
+                        const displayDeparture = train.departure ? String(train.departure) : 'TBD';
+                        const arrivalTs = Number(train.arrival_timestamp);
+                        const fallbackTs = Number.isFinite(arrivalTs) ? Math.floor(arrivalTs) : 0;
+                        const etaValue = Number.isFinite(Number(train.eta_seconds)) ? Math.floor(Number(train.eta_seconds)) : '';
+                        const rowId = `timer-${train.id ? String(train.id).replace(/\s+/g, '_') : 'UNK_' + index}`;
 
                         tbody.innerHTML += `
-                            <tr data-timestamp="${fallbackTs}" data-line="${firstChar}">
+                            <tr data-timestamp="${fallbackTs}" data-line="${firstChar}" data-eta="${etaValue}">
                                 <td><span class="badge">MTA-${train.id || 'UNK'}</span></td>
                                 <td><strong>${train.line || 'Unknown Line'}</strong></td>
                                 <td>${train.origin || 'Terminal'} <i class="fa-solid fa-arrow-right-long" style="color:var(--badge-blue)"></i> ${train.destination || 'In Transit'}</td>
                                 <td>${displayArrival}</td>
                                 <td>${displayDeparture}</td>
-                                <td class="countdown-cell" id="timer-${train.id || Math.random()}">Calculating...</td>
+                                <td class="countdown-cell" id="${rowId}">Calculating...</td>
                             </tr>`;
 
                         if (train.lat && train.lon) {
@@ -172,19 +197,26 @@ try {
     }
 
     function updateAllCountdowns() {
-        // Use server-synced epoch (client time + clockDelta) to avoid clock skew
         const nowServerEpoch = Math.floor(Date.now() / 1000) + (window.clockDelta || 0);
         document.querySelectorAll('#timetable-rows tr').forEach(row => {
-            const targetTimestamp = parseInt(row.getAttribute('data-timestamp'), 10);
             const timerCell = row.querySelector('.countdown-cell');
             if (!timerCell) return;
-            
-            if (!targetTimestamp || isNaN(targetTimestamp)) {
+
+            const etaSecondsAttr = row.getAttribute('data-eta');
+            const etaSeconds = Number.isFinite(Number(etaSecondsAttr)) ? Number(etaSecondsAttr) : null;
+            const targetTimestamp = parseInt(row.getAttribute('data-timestamp'), 10);
+            let diffSecs = null;
+
+            if (etaSeconds !== null) {
+                diffSecs = etaSeconds;
+            } else if (Number.isFinite(targetTimestamp) && targetTimestamp > 0) {
+                diffSecs = targetTimestamp - nowServerEpoch;
+            }
+
+            if (diffSecs === null || isNaN(diffSecs)) {
                 timerCell.innerHTML = '<span style="color:var(--text-muted)">No Schedule</span>';
                 return;
             }
-
-            const diffSecs = targetTimestamp - nowServerEpoch;
 
             if (diffSecs <= 0) {
                 if (diffSecs > -45) {
