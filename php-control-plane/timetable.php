@@ -35,15 +35,13 @@ try {
         .table-container { background-color: var(--panel-bg); border-radius: 8px; overflow: hidden; border: 1px solid var(--border-color); }
         table { width: 100%; border-collapse: collapse; text-align: left; }
         th { background-color: var(--table-header); color: var(--text-muted); text-transform: uppercase; font-size: 11px; font-weight: 700; padding: 18px 24px; border-bottom: 1px solid var(--border-color); }
-        th i { margin-right: 6px; color: #38bdf8; }
+        th i, td i { display: inline-block; min-width: 16px; text-align: center; } /* Improved icon alignment */
+        th i { color: #38bdf8; }
         td { padding: 18px 24px; border-bottom: 1px solid var(--border-color); font-size: 15px; }
         .badge { background-color: var(--badge-blue); color: white; padding: 4px 10px; border-radius: 4px; font-size: 12px; font-family: monospace; }
-        
-        /* FIXED: Added white-space prevention to stop countdown values from wrapping into stacked rows */
         .countdown-cell { color: var(--accent-green); font-family: monospace; font-weight: bold; white-space: nowrap; }
-        
         .status-boarding { color: #f59e0b; font-weight: bold; }
-        #map-panel { height: 535px; background: var(--panel-bg); border-radius: 8px; border: 1px solid var(--border-color); }
+        #map-panel { height: 535px; background: var(--panel-bg); border-radius: 8px; border: 1px solid var(--border-color); position: relative; overflow: hidden; }
     </style>
 </head>
 <body>
@@ -85,99 +83,74 @@ try {
     let scheduleSource, alertSource;
     let activeFilter = 'ALL';
     let lastStreamSequence = 0;
+    let map, mapMarkers = [];
 
-    const map = L.map('map-panel').setView([40.7580, -73.9855], 11);
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png').addTo(map);
-    let mapMarkers = [];
+    // Map initialization with error guard[cite: 1]
+    if (typeof L !== 'undefined') {
+        map = L.map('map-panel').setView([40.7580, -73.9855], 11);
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png').addTo(map);
+    } else {
+        document.getElementById('map-panel').innerHTML = 
+            `<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--text-muted);font-size:13px;flex-direction:column;gap:10px;">
+                <i class="fa-solid fa-earth-americas" style="font-size:24px"></i> Map Service Unavailable
+             </div>`;
+    }
 
     function connectScheduleStream() {
         if (!<?php echo $is_online ? 'true' : 'false'; ?>) return;
         scheduleSource = new EventSource('stream.php');
 
-        // Keep a small clock delta so countdowns use server time instead of client-local time
         window.clockDelta = window.clockDelta || 0;
         scheduleSource.onmessage = function(event) {
-                try {
-                    const payload = JSON.parse(event.data);
-                    let serverTs = Math.floor(Date.now() / 1000);
-                    let trains = [];
-                    let sequence = null;
+            try {
+                const payload = JSON.parse(event.data);
+                let serverTs = Math.floor(Date.now() / 1000);
+                let trains = Array.isArray(payload) ? payload : (payload.trains || []);
+                let sequence = payload.sequence || null;
 
-                    // Backwards-compat: support both wrapped payloads ({server_ts,trains}) and legacy arrays
-                    if (Array.isArray(payload)) {
-                        trains = payload;
-                    } else {
-                        if (Number.isFinite(Number(payload.server_ts))) {
-                            serverTs = Number(payload.server_ts);
-                        }
-                        trains = Array.isArray(payload.trains) ? payload.trains : [];
-                        if (Number.isFinite(Number(payload.sequence))) {
-                            sequence = Number(payload.sequence);
-                        }
-                    }
-
-                    // Ignore stale or duplicate stream messages
-                    if (sequence !== null) {
-                        if (window.lastStreamSequence && sequence <= window.lastStreamSequence) {
-                            return;
-                        }
-                        window.lastStreamSequence = sequence;
-                    }
-
-                    // Compute a clock delta between server and client to avoid skew
-                    const clientRecv = Math.floor(Date.now() / 1000);
-                    const delta = serverTs - clientRecv;
-                    if (Number.isFinite(delta) && Math.abs(delta) < 300) {
-                        window.clockDelta = delta;
-                    }
-
-                    if (!Array.isArray(trains) || trains.length === 0) {
-                        mapMarkers.forEach(m => map.removeLayer(m));
-                        mapMarkers = [];
-                        document.getElementById('timetable-rows').innerHTML = '<tr><td colspan="6" style="text-align:center;color:var(--text-muted);padding:40px;"><i class="fa-solid fa-exclamation-triangle"></i> No active trains in the live feed.</td></tr>';
-                        return;
-                    }
-
-                    const tbody = document.getElementById('timetable-rows');
-                    tbody.innerHTML = '';
-
-                    mapMarkers.forEach(m => map.removeLayer(m));
-                    mapMarkers = [];
-
-                    trains.forEach((train, index) => {
-                        if (!train || typeof train !== 'object') return;
-
-                        const firstChar = train.line ? String(train.line).charAt(0) : 'U';
-                        const displayArrival = train.arrival ? String(train.arrival) : 'TBD';
-                        const displayDeparture = train.departure ? String(train.departure) : 'TBD';
-                        const arrivalTs = Number(train.arrival_timestamp);
-                        const fallbackTs = Number.isFinite(arrivalTs) ? Math.floor(arrivalTs) : 0;
-                        const etaValue = Number.isFinite(Number(train.eta_seconds)) ? Math.floor(Number(train.eta_seconds)) : '';
-                        const rowId = `timer-${train.id ? String(train.id).replace(/\s+/g, '_') : 'UNK_' + index}`;
-
-                        tbody.innerHTML += `
-                            <tr data-timestamp="${fallbackTs}" data-line="${firstChar}" data-eta="${etaValue}">
-                                <td><span class="badge">MTA-${train.id || 'UNK'}</span></td>
-                                <td><strong>${train.line || 'Unknown Line'}</strong></td>
-                                <td>${train.origin || 'Terminal'} <i class="fa-solid fa-arrow-right-long" style="color:var(--badge-blue)"></i> ${train.destination || 'In Transit'}</td>
-                                <td>${displayArrival}</td>
-                                <td>${displayDeparture}</td>
-                                <td class="countdown-cell" id="${rowId}">Calculating...</td>
-                            </tr>`;
-
-                        if (train.lat && train.lon) {
-                            const marker = L.marker([parseFloat(train.lat), parseFloat(train.lon)])
-                                .bindPopup(`<b>Train ${train.id || 'UNK'}</b><br>${train.line || ''}`)
-                                .addTo(map);
-                            mapMarkers.push(marker);
-                        }
-                    });
-                    updateAllCountdowns();
-                    applyRowVisibility();
-                } catch (err) {
-                    console.error("Stream Parsing Error safely bypassed:", err);
+                if (sequence !== null) {
+                    if (window.lastStreamSequence && sequence <= window.lastStreamSequence) return;
+                    window.lastStreamSequence = sequence;
                 }
-            };
+
+                const tbody = document.getElementById('timetable-rows');
+                tbody.innerHTML = '';
+                
+                // Clear existing markers safely
+                if (map) mapMarkers.forEach(m => map.removeLayer(m));
+                mapMarkers = [];
+
+                trains.forEach((train, index) => {
+                    if (!train || typeof train !== 'object') return;
+
+                    // Explicit icon definition to bypass tracking prevention asset blocking[cite: 1]
+                    const defaultIcon = (typeof L !== 'undefined') ? L.icon({
+                        iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
+                        shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
+                        iconSize: [25, 41], iconAnchor: [12, 41], popupAnchor: [1, -34], shadowSize: [41, 41]
+                    }) : null;
+
+                    tbody.innerHTML += `
+                        <tr data-timestamp="${train.arrival_timestamp || 0}" data-line="${train.line?.charAt(0) || 'U'}" data-eta="${train.eta_seconds || ''}">
+                            <td><span class="badge">MTA-${train.id || 'UNK'}</span></td>
+                            <td><strong>${train.line || 'Unknown'}</strong></td>
+                            <td>${train.origin || 'Terminal'} <i class="fa-solid fa-arrow-right-long" style="color:var(--badge-blue)"></i> ${train.destination || 'In Transit'}</td>
+                            <td>${train.arrival || 'TBD'}</td>
+                            <td>${train.departure || 'TBD'}</td>
+                            <td class="countdown-cell" id="timer-${index}">Calculating...</td>
+                        </tr>`;
+
+                    if (map && defaultIcon && train.lat && train.lon) {
+                        const marker = L.marker([parseFloat(train.lat), parseFloat(train.lon)], { icon: defaultIcon })
+                            .bindPopup(`<b>Train ${train.id || 'UNK'}</b><br>${train.line || ''}`)
+                            .addTo(map);
+                        mapMarkers.push(marker);
+                    }
+                });
+                updateAllCountdowns();
+                applyRowVisibility();
+            } catch (err) { console.error("Stream parsing error:", err); }
+        };
     }
 
     function filterLine(lineCharacter, buttonElement) {
@@ -190,9 +163,7 @@ try {
     function applyRowVisibility() {
         document.querySelectorAll('#timetable-rows tr').forEach(row => {
             const lineAttr = row.getAttribute('data-line');
-            if (lineAttr) {
-                row.style.display = (activeFilter === 'ALL' || lineAttr === activeFilter) ? '' : 'none';
-            }
+            row.style.display = (activeFilter === 'ALL' || lineAttr === activeFilter) ? '' : 'none';
         });
     }
 
@@ -202,32 +173,16 @@ try {
             const timerCell = row.querySelector('.countdown-cell');
             if (!timerCell) return;
 
-            const etaSecondsAttr = row.getAttribute('data-eta');
-            const etaSeconds = Number.isFinite(Number(etaSecondsAttr)) ? Number(etaSecondsAttr) : null;
+            const etaSeconds = Number(row.getAttribute('data-eta'));
             const targetTimestamp = parseInt(row.getAttribute('data-timestamp'), 10);
-            let diffSecs = null;
+            let diffSecs = (etaSeconds > 0) ? etaSeconds : (targetTimestamp - nowServerEpoch);
 
-            if (etaSeconds !== null) {
-                diffSecs = etaSeconds;
-            } else if (Number.isFinite(targetTimestamp) && targetTimestamp > 0) {
-                diffSecs = targetTimestamp - nowServerEpoch;
-            }
-
-            if (diffSecs === null || isNaN(diffSecs)) {
-                timerCell.innerHTML = '<span style="color:var(--text-muted)">No Schedule</span>';
-                return;
-            }
-
-            if (diffSecs <= 0) {
-                if (diffSecs > -45) {
-                    timerCell.innerHTML = '<span class="status-boarding"><i class="fa-solid fa-triangle-exclamation"></i> Boarding</span>';
-                } else {
-                    timerCell.innerHTML = '<span style="color:var(--text-muted)">Departed</span>';
-                }
+            if (diffSecs <= 0 && diffSecs > -45) {
+                timerCell.innerHTML = '<span class="status-boarding"><i class="fa-solid fa-triangle-exclamation"></i> Boarding</span>';
+            } else if (diffSecs <= -45) {
+                timerCell.innerHTML = '<span style="color:var(--text-muted)">Departed</span>';
             } else {
-                const mins = Math.floor(diffSecs / 60);
-                const secs = diffSecs % 60;
-                timerCell.innerHTML = `<i class="fa-solid fa-bolt"></i> In ${mins}m ${secs}s`;
+                timerCell.innerHTML = `<i class="fa-solid fa-bolt"></i> In ${Math.floor(diffSecs / 60)}m ${diffSecs % 60}s`;
             }
         });
     }
@@ -240,7 +195,6 @@ try {
         alertSource.onmessage = function(event) {
             try {
                 const data = JSON.parse(event.data);
-                if (!data.train_number || !data.status) return;
                 const banner = document.createElement('div');
                 banner.className = 'incident-banner';
                 banner.innerHTML = `<span>🚨 <strong>ALERT:</strong> Train ${data.train_number} is [${data.status}].</span><span style="cursor:pointer" onclick="this.parentElement.remove()">✕</span>`;
