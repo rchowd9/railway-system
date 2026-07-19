@@ -41,6 +41,7 @@ def generate_local_mta_stream():
             'origin': random.choice(origins),
             'destination': random.choice(destinations),
             'arrival_timestamp': int(arrival_dt.timestamp()),
+            'departure_timestamp': int(departure_dt.timestamp()),
             # %I (12-hour clock) removes broken 24-hour PM collisions like 20:02:46 PM
             'arrival': arrival_dt.strftime("%I:%M:%S %p"),
             'departure': departure_dt.strftime("%I:%M:%S %p"),
@@ -79,13 +80,19 @@ while True:
                         
                     if 'arrival_timestamp' not in train or not train['arrival_timestamp']:
                         train['arrival_timestamp'] = now_ts + 600
+                        train['departure_timestamp'] = train['arrival_timestamp'] + 480
                     
                     try:
                         arrival_dt = datetime.fromtimestamp(int(train['arrival_timestamp']))
+                        train['arrival_timestamp'] = int(arrival_dt.timestamp())
                         train['arrival'] = arrival_dt.strftime("%I:%M:%S %p")
                     except (ValueError, TypeError):
                         train['arrival_timestamp'] = now_ts + 600
                         train['arrival'] = datetime.fromtimestamp(train['arrival_timestamp']).strftime("%I:%M:%S %p")
+                    
+                    if 'departure_timestamp' not in train or not train['departure_timestamp']:
+                        train['departure_timestamp'] = train['arrival_timestamp'] + 480
+                        train['departure'] = datetime.fromtimestamp(train['departure_timestamp']).strftime("%I:%M:%S %p")
                     
                     if int(train['arrival_timestamp']) > (now_ts - 60):
                         updated_overrides.append(train)
@@ -108,6 +115,7 @@ while True:
             at = t.get('arrival_timestamp')
             if not at:
                 t['arrival_timestamp'] = now_ts + 600
+                t['departure_timestamp'] = t['arrival_timestamp'] + 480
                 at = t['arrival_timestamp']
 
             try:
@@ -115,9 +123,13 @@ while True:
             except Exception:
                 at = now_ts + 600
                 t['arrival_timestamp'] = at
+                t['departure_timestamp'] = at + 480
 
             # ETA in seconds relative to server now
             t['eta_seconds'] = at - now_ts
+
+            if 'departure_timestamp' not in t or not t['departure_timestamp']:
+                t['departure_timestamp'] = at + 480
 
             # Ensure a human-friendly arrival string is present
             try:
