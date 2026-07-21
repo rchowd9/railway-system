@@ -26,7 +26,9 @@ try {
         }
         body { background-color: var(--bg-color); color: var(--text-main); font-family: system-ui, sans-serif; padding: 40px; margin: 0; }
         h1 { color: #38bdf8; font-size: 28px; margin-bottom: 5px; font-weight: 600; }
-        .subtitle { color: var(--text-muted); margin-bottom: 25px; font-size: 14px; }
+        .subtitle { color: var(--text-muted); margin-bottom: 10px; font-size: 14px; }
+        .status-line { color: var(--text-muted); font-size: 12px; margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+        .status-pill { background: rgba(2,132,199,0.15); border: 1px solid rgba(56,189,248,0.25); color: #7dd3fc; padding: 4px 8px; border-radius: 999px; font-family: monospace; }
         .layout-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; }
         .filter-group { margin-bottom: 20px; display: flex; gap: 10px; }
         .filter-btn { background: #1e3552; color: #94a3b8; border: 1px solid #1e293b; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-weight: bold; font-size: 13px; display: flex; align-items: center; gap: 6px; }
@@ -48,6 +50,11 @@ try {
     <div id="alert-zone"></div>
     <h1>MTA Live Real-Time Feed Monitor</h1>
     <div class="subtitle"><i class="fa-solid fa-satellite-dish"></i> Resilient SSE Engine Active</div>
+    <div id="status-line" class="status-line">
+        <span class="status-pill" id="status-stream">Stream: connecting…</span>
+        <span class="status-pill" id="status-clock">Clock: syncing…</span>
+        <span class="status-pill" id="status-count">Trains: 0</span>
+    </div>
 
     <div class="filter-group">
         <button class="filter-btn active" onclick="filterLine('ALL', this)"><i class="fa-solid fa-layer-group"></i> All Lines</button>
@@ -96,9 +103,32 @@ try {
              </div>`;
     }
 
+    function updateStatusLine() {
+        const streamEl = document.getElementById('status-stream');
+        const clockEl = document.getElementById('status-clock');
+        const countEl = document.getElementById('status-count');
+        if (!streamEl || !clockEl || !countEl) return;
+
+        const trainCount = document.querySelectorAll('#timetable-rows tr').length;
+        countEl.textContent = `Trains: ${trainCount > 0 ? trainCount : 0}`;
+
+        if (window.clockDelta === undefined || window.clockDelta === null) {
+            clockEl.textContent = 'Clock: syncing…';
+        } else {
+            clockEl.textContent = `Clock: ${window.clockDelta >= 0 ? '+' : ''}${window.clockDelta}s`;
+        }
+
+        if (scheduleSource && scheduleSource.readyState === EventSource.OPEN) {
+            streamEl.textContent = 'Stream: live';
+        } else {
+            streamEl.textContent = 'Stream: connecting…';
+        }
+    }
+
     function connectScheduleStream() {
         if (!<?php echo $is_online ? 'true' : 'false'; ?>) return;
         scheduleSource = new EventSource('stream.php');
+        updateStatusLine();
 
         window.clockDelta = window.clockDelta || 0;
         scheduleSource.onmessage = function(event) {
@@ -113,9 +143,12 @@ try {
                     window.lastStreamSequence = sequence;
                 }
 
+                updateStatusLine();
+
                 const tbody = document.getElementById('timetable-rows');
                 tbody.innerHTML = '';
-                
+                updateStatusLine();
+
                 // Clear existing markers safely
                 if (map) mapMarkers.forEach(m => map.removeLayer(m));
                 mapMarkers = [];
