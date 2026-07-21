@@ -82,7 +82,7 @@ try {
     <script>
     let scheduleSource, alertSource;
     let activeFilter = 'ALL';
-    let lastStreamSequence = 0;
+    window.lastStreamSequence = 0;
     let map, mapMarkers = [];
 
     // Map initialization with error guard[cite: 1]
@@ -109,7 +109,7 @@ try {
                 let sequence = payload.sequence || null;
 
                 if (sequence !== null) {
-                    if (window.lastStreamSequence && sequence <= window.lastStreamSequence) return;
+                    if (window.lastStreamSequence !== undefined && sequence <= window.lastStreamSequence) return;
                     window.lastStreamSequence = sequence;
                 }
 
