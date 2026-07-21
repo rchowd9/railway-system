@@ -19,34 +19,45 @@ sim_fetch_interval = 30
 cached_baseline_stream = []
 
 def generate_local_mta_stream():
-    routes = ["1", "A", "Q", "R"]
-    origins = ["South Ferry", "Utica Ave", "Flatbush Ave", "Coney Island", "Astoria"]
-    destinations = ["Van Cortlandt Park", "Inwood - 207 St", "Astoria - Ditmars Blvd", "Stillwell Ave"]
+    # Structural Map Layout: Maps active lines to explicit, legally accurate terminal pairs
+    valid_routes = [
+        {"line": "1 Line Commuter", "origin": "South Ferry", "destination": "Van Cortlandt Park", "lat_range": (40.701, 40.889), "lon_range": (-74.013, -73.898)},
+        {"line": "1 Line Commuter", "origin": "Van Cortlandt Park", "destination": "South Ferry", "lat_range": (40.701, 40.889), "lon_range": (-74.013, -73.898)},
+        {"line": "A Line Commuter", "origin": "Utica Ave", "destination": "Inwood - 207 St", "lat_range": (40.668, 40.868), "lon_range": (-74.004, -73.931)},
+        {"line": "A Line Commuter", "origin": "Inwood - 207 St", "destination": "Utica Ave", "lat_range": (40.668, 40.868), "lon_range": (-74.004, -73.931)},
+        {"line": "Q Line Commuter", "origin": "Coney Island - Stillwell Ave", "destination": "96 St - 2 Ave", "lat_range": (40.577, 40.784), "lon_range": (-73.981, -73.951)},
+        {"line": "Q Line Commuter", "origin": "96 St - 2 Ave", "destination": "Coney Island - Stillwell Ave", "lat_range": (40.577, 40.784), "lon_range": (-73.981, -73.951)},
+        {"line": "R Line Commuter", "origin": "Bay Ridge - 95 St", "destination": "Forest Hills - 71 Ave", "lat_range": (40.618, 40.722), "lon_range": (-74.031, -73.844)},
+        {"line": "R Line Commuter", "origin": "Forest Hills - 71 Ave", "destination": "Bay Ridge - 95 St", "lat_range": (40.618, 40.722), "lon_range": (-74.031, -73.844)}
+    ]
     
     simulated_timetable = []
     now = datetime.now()
     current_offset_minutes = 2 
     
     for i in range(8):
-        # Enforce varied increments so countdown values never overlap identically
         current_offset_minutes += random.randint(6, 14)
         random_seconds = random.randint(0, 59)
 
         arrival_dt = now + timedelta(minutes=current_offset_minutes, seconds=random_seconds)
-        departure_dt = arrival_dt + timedelta(minutes=8)
+        
+        # FIX: Added a realistic 6-to-11 minute turnaround/dwell window for terminal processing
+        turnaround_dwell_time = random.randint(6, 11)
+        departure_dt = arrival_dt + timedelta(minutes=turnaround_dwell_time)
+        
+        route_profile = random.choice(valid_routes)
         
         simulated_timetable.append({
             'id': f"{random.randint(100000, 999999)}",
-            'line': f"{random.choice(routes)} Line Commuter",
-            'origin': random.choice(origins),
-            'destination': random.choice(destinations),
+            'line': route_profile['line'],
+            'origin': route_profile['origin'],
+            'destination': route_profile['destination'],
             'arrival_timestamp': int(arrival_dt.timestamp()),
             'departure_timestamp': int(departure_dt.timestamp()),
-            # %I (12-hour clock) removes broken 24-hour PM collisions like 20:02:46 PM
             'arrival': arrival_dt.strftime("%I:%M:%S %p"),
             'departure': departure_dt.strftime("%I:%M:%S %p"),
-            'lat': random.uniform(40.70, 40.85),
-            'lon': random.uniform(-74.00, -73.90)
+            'lat': random.uniform(*route_profile['lat_range']),
+            'lon': random.uniform(*route_profile['lon_range'])
         })
     return simulated_timetable
 
@@ -65,8 +76,6 @@ while True:
         if admin_override:
             try:
                 overridden_trains = json.loads(admin_override)
-                
-                # EDGE CASE: If data is corrupted into a non-list format, normalize safely
                 if not isinstance(overridden_trains, list):
                     overridden_trains = []
                     
@@ -74,7 +83,6 @@ while True:
                 now_ts = int(time.time())
                 
                 for train in overridden_trains:
-                    # EDGE CASE: Skip malformed entry blocks that aren't dict profiles
                     if not isinstance(train, dict) or 'id' not in train:
                         continue
                         
@@ -102,16 +110,14 @@ while True:
                 
             except json.JSONDecodeError:
                 print("⚠️ Malformed override payload detected. Purging corrupted Redis vector.")
-                r.delete('mta-admin-override') # Fixed: Using valid r.delete() instead of r.del()
+                r.delete('mta-admin-override')
     except Exception as redis_err:
         print(f"⚠️ Redis connection glitch encountered in main processing thread: {redis_err}")
 
     try:
-        # Compute server-side ETA for each train to reduce client-side skew.
         now_ts = int(time.time())
         enriched = []
         for t in live_timetable[:10]:
-            # Ensure arrival_timestamp exists and is an int
             at = t.get('arrival_timestamp')
             if not at:
                 t['arrival_timestamp'] = now_ts + 600
@@ -125,13 +131,11 @@ while True:
                 t['arrival_timestamp'] = at
                 t['departure_timestamp'] = at + 480
 
-            # ETA in seconds relative to server now
             t['eta_seconds'] = at - now_ts
 
             if 'departure_timestamp' not in t or not t['departure_timestamp']:
                 t['departure_timestamp'] = at + 480
 
-            # Ensure a human-friendly arrival string is present
             try:
                 t['arrival'] = datetime.fromtimestamp(at).strftime("%I:%M:%S %p")
             except Exception:
